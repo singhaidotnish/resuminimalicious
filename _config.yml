@@ -1,7 +1,10 @@
 title: "Nishith Singhai"
+description: "Creative Technophile | AI/VFX Learner | Resume + Blog"
 email: your@email.com
-description: >-
-  Resume + Blog by Nishith Singhai
+url: "https://singhaidotnish.github.io"
+author:
+  name: Nishith Singhai
+  avatar: "/assets/images/avatar.png"
 
 # Enable collections
 collections:
