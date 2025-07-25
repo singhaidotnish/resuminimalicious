@@ -1,0 +1,34 @@
+
+# Skills
+
+- skill: Technical Skills
+  summary: >
+    <ul class="resume-item-list">
+      <li>VFX Software &mdash; Maya, Houdini, Nuke, Blender</li>
+      <li>Pipeline Tools &mdash; USD, OpenTimelineIO, AYON, Deadline</li>
+      <li>Languages &mdash; Python (TD scripting), JavaScript (tool UIs), Bash</li>
+      <li>Web UI &mdash; React, TailwindCSS, Jekyll (internal dashboards)</li>
+    </ul>
+
+- skill: Soft Skills
+  summary: >
+    <ul class="resume-item-list">
+      <li>Communicate &mdash; Ask all and any number of questions</li>
+      <li>Execute &mdash; Give deliverables to clients (internal, external) as required</li>
+      <li>Rewire &mdash; If something does not work, don’t stop there, rewire</li>
+    </ul>
+
+- skill: Self-Paced Learning
+  summary: >
+    <ul class="resume-item-list">
+      <li>Exploring AI in VFX using tools like RunwayML, MidJourney, and Stable Diffusion</li>
+      <li>Hands-on learning via Google Colab for MediaPipe, Pose Detection, Object Classification</li>
+      <li>Understanding modern VFX pipeline standards like USD and AYON</li>
+    </ul>
+  sub_skills:
+    - name: Capture and label training data for object detection
+      jupyter_notebook: "https://colab.research.google.com/github/user/repo/blob/main/notebook.ipynb"
+    - name: MediaPipe Pose Detection in Google Colab
+      jupyter_notebook: "https://colab.research.google.com/github/user/repo/blob/main/notebook.ipynb"
+    - name: Real-time Webcam Pose Detection with MediaPipe
+      jupyter_notebook: "https://colab.research.google.com/github/user/repo/blob/main/notebook.ipynb"
