@@ -1,12 +1,14 @@
 title: "Nishith Singhai"
 description: "Creative Technophile | AI/VFX Learner | Resume + Blog"
 email: singhai.nish@gmail.com
-url: "https://singhaidotnish.github.io"
+url: "https://zarir-engineer.github.io"
+baseurl: "/resuminimalicious"  # important!
 author:
   name: Nishith Singhai
   avatar: "/assets/images/avatar.png"
 
-# Enable collections
+remote_theme: "mmistakes/minimal-mistakes"
+
 collections:
   experience:
     output: true
@@ -16,8 +18,6 @@ collections:
     output: true
     permalink: /:path/
 
-
-# Data
 defaults:
   - scope:
       path: ""
@@ -28,6 +28,12 @@ defaults:
   - scope:
       path: ""
       type: "education"
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+      type: "posts"
     values:
       layout: single
       author_profile: true
