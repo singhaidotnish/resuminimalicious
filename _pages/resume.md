@@ -20,17 +20,21 @@ classes: wide
 ## 🎓 Education
 
 {% for edu in site.data.education %}
-- **{{ edu.degree }}**, _{{ edu.school }}_  
-  {{ edu.year }} | {{ edu.location }}
+- **{{ edu.degree }}**, _{{ edu.school }}_
+{{ edu.year }} | {{ edu.location }}
 {% endfor %}
 
 ---
 
 ## 💼 Experience
 
-{% for exp in site.data.experience %}
-### {{ exp.title }} – {{ exp.company }}
-_{{ exp.period }} | {{ exp.location }}_
+{% for job in site.data.experience %}
+### {{ job.position }}
+**{{ job.company }}**  
+<span style="font-style: italic;">{{ job.duration }}</span>
 
-{{ exp.description }}
+  {% for b in job.bullets %}
+- {{ b }}
 {% endfor %}
+{% endfor %}
+
