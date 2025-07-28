@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: sans-serif;
+  margin: 2rem;
+}
+.chapter {
+  margin-bottom: 2rem;
+}
+.ticker {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: black;
+  color: white;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.ticker::after {
+  content: attr(data-text);
+  animation: ticker 20s linear infinite;
+}
+@keyframes ticker {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
