@@ -1,6 +1,6 @@
 var store = [{
         "title": "Résumé",
-        "excerpt":"🧠 Skills Programming Python: Expert JavaScript: Advanced C++: Intermediate Tools &amp; Platforms Blender: Intermediate FFmpeg: Expert Jekyll: Advanced AI &amp; Automation OpenAI API: Intermediate Tasker: Expert 🎓 Education Bachelor of Science, Mathematics, Wilson College 1989 — 1993 | India Language Study ( German ), Max Mueller Bhavan 1994 | Jabalpur...","categories": [],
+        "excerpt":"📍 Mumbai, India &nbsp;|&nbsp; ✉️ nishith@example.com VFX Pipeline TD specializing in automation, real-time tooling, and AI-enhanced workflows. I design systems that simplify complex pipelines, empower artists, and scale with production demands. 🧠 Skills Programming Python: Expert JavaScript: Advanced C++: Intermediate Tools &amp; Platforms Blender: Intermediate FFmpeg: Expert Jekyll: Advanced AI...","categories": [],
         "tags": [],
         "url": "/resuminimalicious/resume/",
         "teaser": null
