@@ -5,6 +5,17 @@ permalink: /resume/
 author_profile: true
 classes: wide
 ---
+<p align="center">
+📍 Mumbai, India &nbsp;|&nbsp;
+✉️ <a href="mailto:nishith@example.com">nishith@example.com</a>
+</p>
+
+<p align="center">
+<strong>VFX Pipeline TD</strong> specializing in automation, real-time tooling, and AI-enhanced workflows.<br>
+I design systems that simplify complex pipelines, empower artists, and scale with production demands.
+</p>
+
+---
 
 ## 🧠 Skills
 
