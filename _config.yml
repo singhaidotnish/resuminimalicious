@@ -7,7 +7,7 @@ author:
   name: Nishith Singhai
   avatar: "/assets/images/avatar.png"
 
-remote_theme: "mmistakes/minimal-mistakes"
+theme: null
 
 collections:
   experience:
