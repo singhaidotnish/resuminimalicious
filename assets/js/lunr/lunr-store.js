@@ -418,4 +418,10 @@ var store = [{
         "tags": [],
         "url": "/resuminimalicious/2024/01/10/my-first-post.html",
         "teaser": null
+      },{
+        "title": "Designing AI Workflows for the VFX Pipeline",
+        "excerpt":"## The Problem with Manual VFX Workflows Even seasoned artists struggle with repetitive simulation and data conversion tasks... ## AI as a Creative Assistant I explore how to integrate AI into Houdini node networks, using RunwayML or Python wrappers... ## Building Artist Tools My focus is to reduce friction in...","categories": ["vfx","ai-tools"],
+        "tags": ["houdini","blender","ai","automation","pipeline"],
+        "url": "/resuminimalicious/vfx/ai-tools/2025/07/29/vfx-automation-insights.md%20",
+        "teaser": null
       }]
