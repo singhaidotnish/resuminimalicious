@@ -412,4 +412,10 @@ var store = [{
         "tags": ["video","layout"],
         "url": "/resuminimalicious/docs/layout/uncategorized/2017/01/23/layout-header-video.html",
         "teaser": null
+      },{
+        "title": "My First Post",
+        "excerpt":"File: _posts/2024-01-10-my-first-post.md    title: “How I Automate the VFX Pipeline” description: “Using Houdini, Blender, and AI tools to simplify animation workflows” date: 2024-01-10 layout: single categories: [vfx, automation] tags: [houdini, ai, blender, pipeline] author: Nishith Singhai —   This post describes my journey building tools that integrate AI into VFX production…  ","categories": [],
+        "tags": [],
+        "url": "/resuminimalicious/2024/01/10/my-first-post.html",
+        "teaser": null
       }]
