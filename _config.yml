@@ -7,7 +7,7 @@ author:
   name: Nishith Singhai
   avatar: "/assets/images/avatar.png"
 
-theme: null
+theme: minimal-mistakes-jekyll
 
 collections:
   experience:
@@ -19,6 +19,15 @@ collections:
     permalink: /:path/
 
 defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: single
+      toc: true
+      toc_sticky: true
+      toc_label: "On this page"
+      toc_icon: "book"
   - scope:
       path: ""
       type: "experience"
@@ -38,7 +47,13 @@ defaults:
       layout: single
       author_profile: true
 
+sass:
+  style: compressed
+
 plugins:
   - jekyll-include-cache
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-feed
+
+minimal_mistakes_skin: default

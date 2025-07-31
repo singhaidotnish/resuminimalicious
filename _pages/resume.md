@@ -1,19 +1,19 @@
 ---
 title: "Résumé"
 layout: single
+toc: true
+toc_sticky: true
 permalink: /resume/
 author_profile: true
-classes: wide
 ---
+
+
 <p align="center">
 📍 Mumbai, India &nbsp;|&nbsp;
 ✉️ <a href="mailto:nishith@example.com">nishith@example.com</a>
 </p>
 
-<p align="center">
-<strong>VFX Pipeline TD</strong> specializing in automation, real-time tooling, and AI-enhanced workflows.<br>
-I design systems that simplify complex pipelines, empower artists, and scale with production demands.
-</p>
+**VFX Pipeline TD** crafting **scalable**, **AI-augmented** tools that streamline pipelines and free artists to focus on creativity.
 
 ---
 
@@ -40,8 +40,7 @@ I design systems that simplify complex pipelines, empower artists, and scale wit
 ## 💼 Experience
 
 {% for job in site.data.experience %}
-### {{ job.position }}
-**{{ job.company }}**  
+### **{{ job.company }}**
 <span style="font-style: italic;">{{ job.duration }}</span>
 
   {% for b in job.bullets %}
