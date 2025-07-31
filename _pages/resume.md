@@ -40,11 +40,11 @@ author_profile: false
 ## 💼 Experience
 
 {% for job in site.data.experience %}
-### **{{ job.company }}**
-<span style="font-style: italic;">{{ job.duration }}</span>
+<h3 id="{{ job.company | slugify }}">{{ job.company }}</h3>
+*{{ job.duration }}*
 
-  {% for b in job.bullets %}
+{% for b in job.bullets %}
 - {{ b }}
 {% endfor %}
-{% endfor %}
 
+{% endfor %}
