@@ -4,13 +4,13 @@ layout: single
 toc: true
 toc_sticky: true
 permalink: /resume/
-author_profile: true
+author_profile: false
 ---
 
 
 <p align="center">
 📍 Mumbai, India &nbsp;|&nbsp;
-✉️ <a href="mailto:nishith@example.com">nishith@example.com</a>
+✉️ <a href="mailto:nishith@example.com">singhai.nish@gmail.com</a>
 </p>
 
 **VFX Pipeline TD** crafting **scalable**, **AI-augmented** tools that streamline pipelines and free artists to focus on creativity.
