@@ -1,6 +1,6 @@
 var store = [{
         "title": "Résumé",
-        "excerpt":"📍 Mumbai, India &nbsp;|&nbsp; ✉️ nishith@example.com VFX Pipeline TD crafting scalable, AI-augmented tools that streamline pipelines and free artists to focus on creativity. 🧠 Skills Programming Python: Expert JavaScript: Advanced C++: Intermediate Tools &amp; Platforms Blender: Intermediate FFmpeg: Expert Jekyll: Advanced AI &amp; Automation OpenAI API: Intermediate Tasker: Expert 🎓...","categories": [],
+        "excerpt":"📍 Mumbai, India &nbsp;|&nbsp; ✉️ singhai.nish@gmail.com VFX Pipeline TD crafting scalable, AI-augmented tools that streamline pipelines and free artists to focus on creativity. 🧠 Skills Programming Python: Expert JavaScript: Advanced C++: Intermediate Tools &amp; Platforms Blender: Intermediate FFmpeg: Expert Jekyll: Advanced AI &amp; Automation OpenAI API: Intermediate Tasker: Expert 🎓...","categories": [],
         "tags": [],
         "url": "/resuminimalicious/resume/",
         "teaser": null
