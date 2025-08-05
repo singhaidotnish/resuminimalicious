@@ -5,24 +5,6 @@ var store = [{
         "url": "/resume/",
         "teaser": null
       },{
-        "title": "Edge Case: Nested and Mixed Lists",
-        "excerpt":"Nested and mixed lists are an interesting beast. It’s a corner case to make sure that Lists within lists do not break the ordered list numbering order Your list styles go deep enough. Ordered – Unordered – Ordered ordered item ordered item unordered unordered ordered item ordered item ordered item...","categories": ["docs","Edge Case"],
-        "tags": ["content","css","edge case","lists","markup"],
-        "url": "/docs/edge%20case/2009/05/15/edge-case-nested-and-mixed-lists.html",
-        "teaser": null
-      },{
-        "title": "Edge Case: Many Tags",
-        "excerpt":"This post has many tags.  ","categories": ["docs","Edge Case"],
-        "tags": ["8BIT","alignment","Articles","captions","categories","chat","comments","content","css","dowork","edge case","embeds","excerpt","Fail","featured image","FTW","Fun","gallery","html","image","Jekyll","layout","link","Love","markup","Mothership","Must Read","Nailed It","Pictures","Post Formats","quote","standard","Success","Swagger","Tags","template","title","twitter","Unseen","video","YouTube"],
-        "url": "/docs/edge%20case/2009/06/01/edge-case-many-tags.html",
-        "teaser": null
-      },{
-        "title": "Edge Case: Many Categories",
-        "excerpt":"This post has many categories.  ","categories": ["docs","aciform","antiquarianism","arrangement","asmodeus","broder","buying","championship","chastening","disinclination","disinfection","dispatch","echappee","enphagy"],
-        "tags": ["categories","edge case"],
-        "url": "/docs/aciform/antiquarianism/arrangement/asmodeus/broder/buying/championship/chastening/disinclination/disinfection/dispatch/echappee/enphagy/2009/07/02/edge-case-many-categories.html",
-        "teaser": null
-      },{
         "title": "Edge Case: No Body Content",
         "excerpt":" ","categories": ["docs","Edge Case"],
         "tags": ["content","edge case","layout"],
