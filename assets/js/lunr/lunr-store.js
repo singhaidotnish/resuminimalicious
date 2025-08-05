@@ -424,4 +424,208 @@ var store = [{
         "tags": ["houdini","blender","ai","automation","pipeline"],
         "url": "/vfx/ai-tools/2025/07/29/vfx-automation-insights.md%20",
         "teaser": null
+      },{
+        "title": "Building a condition engine inspired by Tradetron",
+        "excerpt":"Coming soon: Building a condition engine inspired by Tradetron   Stay tuned.  ","categories": ["blog"],
+        "tags": ["chatgpt","ai","tools","personal"],
+        "url": "/building-a-condition-engine-inspired-by-tradetron/",
+        "teaser": null
+      },{
+        "title": "Building a Houdini tool with AI-assisted workflows",
+        "excerpt":"Coming soon: Building a Houdini tool with AI-assisted workflows   Stay tuned.  ","categories": ["blog"],
+        "tags": ["chatgpt","ai","tools","personal"],
+        "url": "/building-a-houdini-tool-with-ai-assisted-workflows/",
+        "teaser": null
+      },{
+        "title": "Building the “Build Your Dream” tool – concept to working prototype",
+        "excerpt":"Coming soon: Building the “Build Your Dream” tool – concept to working prototype   Stay tuned.  ","categories": ["blog"],
+        "tags": ["chatgpt","ai","tools","personal"],
+        "url": "/building-the-build-your-dream-tool-concept-to-working-prototype/",
+        "teaser": null
+      },{
+        "title": "Can ChatGPT replace a tech lead for solo projects?",
+        "excerpt":"Coming soon: Can ChatGPT replace a tech lead for solo projects?   Stay tuned.  ","categories": ["blog"],
+        "tags": ["chatgpt","ai","tools","personal"],
+        "url": "/can-chatgpt-replace-a-tech-lead-for-solo-projects/",
+        "teaser": null
+      },{
+        "title": "Comparing Houdini vs Blender for procedural workflows",
+        "excerpt":"Coming soon: Comparing Houdini vs Blender for procedural workflows   Stay tuned.  ","categories": ["blog"],
+        "tags": ["chatgpt","ai","tools","personal"],
+        "url": "/comparing-houdini-vs-blender-for-procedural-workflows/",
+        "teaser": null
+      },{
+        "title": "Creating a spinner-based ratio allocation UI in React",
+        "excerpt":"Coming soon: Creating a spinner-based ratio allocation UI in React   Stay tuned.  ","categories": ["blog"],
+        "tags": ["chatgpt","ai","tools","personal"],
+        "url": "/creating-a-spinner-based-ratio-allocation-ui-in-react/",
+        "teaser": null
+      },{
+        "title": "Designing logos and blog headers using AI",
+        "excerpt":"Coming soon: Designing logos and blog headers using AI   Stay tuned.  ","categories": ["blog"],
+        "tags": ["chatgpt","ai","tools","personal"],
+        "url": "/designing-logos-and-blog-headers-using-ai/",
+        "teaser": null
+      },{
+        "title": "From idea to tool: Storyboarding with AI",
+        "excerpt":"Coming soon: From idea to tool: Storyboarding with AI   Stay tuned.  ","categories": ["blog"],
+        "tags": ["chatgpt","ai","tools","personal"],
+        "url": "/from-idea-to-tool-storyboarding-with-ai/",
+        "teaser": null
+      },{
+        "title": "Hosting a WebSocket client on the cloud for real-time updates",
+        "excerpt":"Coming soon: Hosting a WebSocket client on the cloud for real-time updates   Stay tuned.  ","categories": ["blog"],
+        "tags": ["chatgpt","ai","tools","personal"],
+        "url": "/hosting-a-websocket-client-on-the-cloud-for-real-time-updates/",
+        "teaser": null
+      },{
+        "title": "Hosting Python tools with Railway for real-time data",
+        "excerpt":"Coming soon: Hosting Python tools with Railway for real-time data   Stay tuned.  ","categories": ["blog"],
+        "tags": ["chatgpt","ai","tools","personal"],
+        "url": "/hosting-python-tools-with-railway-for-real-time-data/",
+        "teaser": null
+      },{
+        "title": "How I built a condition builder using ChatGPT and React",
+        "excerpt":"Coming soon: How I built a condition builder using ChatGPT and React   Stay tuned.  ","categories": ["blog"],
+        "tags": ["chatgpt","ai","tools","personal"],
+        "url": "/how-i-built-a-condition-builder-using-chatgpt-and-react/",
+        "teaser": null
+      },{
+        "title": "How I combine biking + coding to regulate my brain",
+        "excerpt":"Coming soon: How I combine biking + coding to regulate my brain   Stay tuned.  ","categories": ["blog"],
+        "tags": ["chatgpt","ai","tools","personal"],
+        "url": "/how-i-combine-biking-coding-to-regulate-my-brain/",
+        "teaser": null
+      },{
+        "title": "How I planned an animation workflow using RunwayML",
+        "excerpt":"Coming soon: How I planned an animation workflow using RunwayML   Stay tuned.  ","categories": ["blog"],
+        "tags": ["chatgpt","ai","tools","personal"],
+        "url": "/how-i-planned-an-animation-workflow-using-runwayml/",
+        "teaser": null
+      },{
+        "title": "How I structured my Next.js + Express + MongoDB stack",
+        "excerpt":"Coming soon: How I structured my Next.js + Express + MongoDB stack   Stay tuned.  ","categories": ["blog"],
+        "tags": ["chatgpt","ai","tools","personal"],
+        "url": "/how-i-structured-my-nextjs-express-mongodb-stack/",
+        "teaser": null
+      },{
+        "title": "How I use ChatGPT to debug code effectively",
+        "excerpt":"Coming soon: How I use ChatGPT to debug code effectively   Stay tuned.  ","categories": ["blog"],
+        "tags": ["chatgpt","ai","tools","personal"],
+        "url": "/how-i-use-chatgpt-to-debug-code-effectively/",
+        "teaser": null
+      },{
+        "title": "How I visualize project ideas using Draw.io",
+        "excerpt":"Coming soon: How I visualize project ideas using Draw.io   Stay tuned.  ","categories": ["blog"],
+        "tags": ["chatgpt","ai","tools","personal"],
+        "url": "/how-i-visualize-project-ideas-using-drawio/",
+        "teaser": null
+      },{
+        "title": "Learn by practically making a tool – minimal PyQt5 AI-infused tool",
+        "excerpt":"Coming soon: Learn by practically making a tool – minimal PyQt5 AI-infused tool   Stay tuned.  ","categories": ["blog"],
+        "tags": ["chatgpt","ai","tools","personal"],
+        "url": "/learn-by-practically-making-a-tool-minimal-pyqt5-ai-infused-tool/",
+        "teaser": null
+      },{
+        "title": "Learning AI for an ADHD mind – step-by-step guidance from ChatGPT",
+        "excerpt":"Coming soon: Learning AI for an ADHD mind – step-by-step guidance from ChatGPT   Stay tuned.  ","categories": ["blog"],
+        "tags": ["chatgpt","ai","tools","personal"],
+        "url": "/learning-ai-for-an-adhd-mind-step-by-step-guidance-from-chatgpt/",
+        "teaser": null
+      },{
+        "title": "Learning AI with an ADHD brain: What works for me",
+        "excerpt":"Coming soon: Learning AI with an ADHD brain: What works for me   Stay tuned.  ","categories": ["blog"],
+        "tags": ["chatgpt","ai","tools","personal"],
+        "url": "/learning-ai-with-an-adhd-brain-what-works-for-me/",
+        "teaser": null
+      },{
+        "title": "Migrating from Staticman to custom backend for Jekyll comments",
+        "excerpt":"Coming soon: Migrating from Staticman to custom backend for Jekyll comments   Stay tuned.  ","categories": ["blog"],
+        "tags": ["chatgpt","ai","tools","personal"],
+        "url": "/migrating-from-staticman-to-custom-backend-for-jekyll-comments/",
+        "teaser": null
+      },{
+        "title": "My approach to learning Python while being distractible",
+        "excerpt":"Coming soon: My approach to learning Python while being distractible   Stay tuned.  ","categories": ["blog"],
+        "tags": ["chatgpt","ai","tools","personal"],
+        "url": "/my-approach-to-learning-python-while-being-distractible/",
+        "teaser": null
+      },{
+        "title": "Open-source tools I contributed to as a VFX TD",
+        "excerpt":"Coming soon: Open-source tools I contributed to as a VFX TD   Stay tuned.  ","categories": ["blog"],
+        "tags": ["chatgpt","ai","tools","personal"],
+        "url": "/open-source-tools-i-contributed-to-as-a-vfx-td/",
+        "teaser": null
+      },{
+        "title": "Partition Tree App: Challenges and lessons",
+        "excerpt":"Coming soon: Partition Tree App: Challenges and lessons   Stay tuned.  ","categories": ["blog"],
+        "tags": ["chatgpt","ai","tools","personal"],
+        "url": "/partition-tree-app-challenges-and-lessons/",
+        "teaser": null
+      },{
+        "title": "Real-time automation tools for VFX production",
+        "excerpt":"Coming soon: Real-time automation tools for VFX production   Stay tuned.  ","categories": ["blog"],
+        "tags": ["chatgpt","ai","tools","personal"],
+        "url": "/real-time-automation-tools-for-vfx-production/",
+        "teaser": null
+      },{
+        "title": "Real-world use of GPT in data-driven storytelling",
+        "excerpt":"Coming soon: Real-world use of GPT in data-driven storytelling   Stay tuned.  ","categories": ["blog"],
+        "tags": ["chatgpt","ai","tools","personal"],
+        "url": "/real-world-use-of-gpt-in-data-driven-storytelling/",
+        "teaser": null
+      },{
+        "title": "Resuminimalicious – how ChatGPT was used to build it",
+        "excerpt":"Coming soon: Resuminimalicious – how ChatGPT was used to build it   Stay tuned.  ","categories": ["blog"],
+        "tags": ["chatgpt","ai","tools","personal"],
+        "url": "/resuminimalicious-how-chatgpt-was-used-to-build-it/",
+        "teaser": null
+      },{
+        "title": "Step-by-step guide to infusing AI in PyQt5",
+        "excerpt":"Coming soon: Step-by-step guide to infusing AI in PyQt5   Stay tuned.  ","categories": ["blog"],
+        "tags": ["chatgpt","ai","tools","personal"],
+        "url": "/step-by-step-guide-to-infusing-ai-in-pyqt5/",
+        "teaser": null
+      },{
+        "title": "Tasker + AI = Automation for neurodiverse minds",
+        "excerpt":"Coming soon: Tasker + AI = Automation for neurodiverse minds   Stay tuned.  ","categories": ["blog"],
+        "tags": ["chatgpt","ai","tools","personal"],
+        "url": "/tasker-ai-automation-for-neurodiverse-minds/",
+        "teaser": null
+      },{
+        "title": "Using AI for market pattern recognition in trading",
+        "excerpt":"Coming soon: Using AI for market pattern recognition in trading   Stay tuned.  ","categories": ["blog"],
+        "tags": ["chatgpt","ai","tools","personal"],
+        "url": "/using-ai-for-market-pattern-recognition-in-trading/",
+        "teaser": null
+      },{
+        "title": "Using AI in episodic animation pipelines",
+        "excerpt":"Coming soon: Using AI in episodic animation pipelines   Stay tuned.  ","categories": ["blog"],
+        "tags": ["chatgpt","ai","tools","personal"],
+        "url": "/using-ai-in-episodic-animation-pipelines/",
+        "teaser": null
+      },{
+        "title": "Using MidJourney to design story characters",
+        "excerpt":"Coming soon: Using MidJourney to design story characters   Stay tuned.  ","categories": ["blog"],
+        "tags": ["chatgpt","ai","tools","personal"],
+        "url": "/using-midjourney-to-design-story-characters/",
+        "teaser": null
+      },{
+        "title": "Using practical tools to stay focused while coding",
+        "excerpt":"Coming soon: Using practical tools to stay focused while coding   Stay tuned.  ","categories": ["blog"],
+        "tags": ["chatgpt","ai","tools","personal"],
+        "url": "/using-practical-tools-to-stay-focused-while-coding/",
+        "teaser": null
+      },{
+        "title": "Varsity Audio – how ChatGPT was used to build it",
+        "excerpt":"Coming soon: Varsity Audio – how ChatGPT was used to build it   Stay tuned.  ","categories": ["blog"],
+        "tags": ["chatgpt","ai","tools","personal"],
+        "url": "/varsity-audio-how-chatgpt-was-used-to-build-it/",
+        "teaser": null
+      },{
+        "title": "Varsity Audio: Why I avoided MongoDB",
+        "excerpt":"Coming soon: Varsity Audio: Why I avoided MongoDB   Stay tuned.  ","categories": ["blog"],
+        "tags": ["chatgpt","ai","tools","personal"],
+        "url": "/varsity-audio-why-i-avoided-mongodb/",
+        "teaser": null
       }]
