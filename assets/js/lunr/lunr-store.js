@@ -601,7 +601,7 @@ var store = [{
       },{
         "title": "Varsity Audio – how ChatGPT was used to build it",
         "excerpt":"🎧 What You Can Gain from Varsity Audio Learn financial concepts while walking, commuting, or relaxing No need to read long text on screen — just listen Perfect for auditory learners Helps revise Zerodha Varsity content on-the-go Available in lightweight formats (MP3) 💡 Why I Built Varsity Audio I wanted...","categories": ["blog"],
-        "tags": ["chatgpt","ai","tools","personal"],
+        "tags": ["ai","chatgpt","tts","tools","audio","education"],
         "url": "/varsity-audio-how-chatgpt-was-used-to-build-it/",
         "teaser": null
       },{
