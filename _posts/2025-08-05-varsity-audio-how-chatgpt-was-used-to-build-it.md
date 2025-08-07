@@ -1,13 +1,17 @@
 ---
 title: "Varsity Audio – how ChatGPT was used to build it"
-layout: post
+layout: single
+tags: [ai, chatgpt, tts, tools, audio, education]
 date: 2025-08-05
 categories: blog
-tags: [chatgpt, ai, tools, personal]
 permalink: /varsity-audio-how-chatgpt-was-used-to-build-it/
+read_time: true
+toc: true
+toc_label: "On this page"
+share: true
+related: true
+
 ---
-
-
 
 ## 🎧 What You Can Gain from Varsity Audio
 
