@@ -1,3 +1,545 @@
-<p>Coming soon: <strong>Varsity Audio: Why I avoided MongoDB</strong></p>
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.27.2 by Michael Rose
+  Copyright 2013-2025 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
 
-<p>Stay tuned.</p>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Varsity Audio: Why I avoided MongoDB - Nishith Singhai</title>
+<meta name="description" content="🎧 The Varsity Audio Project">
+
+
+  <meta name="author" content="Nishith Singhai">
+  
+  <meta property="article:author" content="Nishith Singhai">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Nishith Singhai">
+<meta property="og:title" content="Varsity Audio: Why I avoided MongoDB">
+<meta property="og:url" content="https://nishith.is-a.dev/varsity-audio-why-i-avoided-mongodb/">
+
+
+  <meta property="og:description" content="🎧 The Varsity Audio Project">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2025-08-05T00:00:00+00:00">
+
+
+
+
+
+
+<link rel="canonical" href="https://nishith.is-a.dev/varsity-audio-why-i-avoided-mongodb/">
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Nishith Singhai Feed">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  
+</script>
+
+<!-- For all browsers -->
+<link rel="icon" href="/favicon.ico">
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+
+
+
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Varsity Audio: Why I avoided MongoDB | Nishith Singhai</title>
+<meta name="generator" content="Jekyll v4.3.4" />
+<meta property="og:title" content="Varsity Audio: Why I avoided MongoDB" />
+<meta name="author" content="Nishith Singhai" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="🎧 The Varsity Audio Project" />
+<meta property="og:description" content="🎧 The Varsity Audio Project" />
+<link rel="canonical" href="https://nishith.is-a.dev/varsity-audio-why-i-avoided-mongodb/" />
+<meta property="og:url" content="https://nishith.is-a.dev/varsity-audio-why-i-avoided-mongodb/" />
+<meta property="og:site_name" content="Nishith Singhai" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-08-05T00:00:00+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Varsity Audio: Why I avoided MongoDB" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Nishith Singhai"},"dateModified":"2025-08-05T00:00:00+00:00","datePublished":"2025-08-05T00:00:00+00:00","description":"🎧 The Varsity Audio Project","headline":"Varsity Audio: Why I avoided MongoDB","mainEntityOfPage":{"@type":"WebPage","@id":"https://nishith.is-a.dev/varsity-audio-why-i-avoided-mongodb/"},"url":"https://nishith.is-a.dev/varsity-audio-why-i-avoided-mongodb/"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single wide" dir="ltr">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Nishith Singhai
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a
+                href="/"
+                
+                
+              >Blog</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/resume/"
+                
+                
+              >Résumé</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+      
+      
+      
+      
+    
+      
+      
+      
+      
+    
+      
+      
+      
+      
+    
+    
+      <nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      
+      
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Varsity Audio: Why I avoided MongoDB">
+    <meta itemprop="description" content="🎧 The Varsity Audio Project">
+    <meta itemprop="datePublished" content="2025-08-05T00:00:00+00:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">
+            <a href="https://nishith.is-a.dev/varsity-audio-why-i-avoided-mongodb/" itemprop="url">Varsity Audio: Why I avoided MongoDB
+</a>
+          </h1>
+          
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          1 minute read
+        
+      </span>
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu"><li><a href="#-the-varsity-audio-project">🎧 The Varsity Audio Project</a></li><li><a href="#-my-initial-considerations">💭 My Initial Considerations</a></li><li><a href="#-what-my-project-actually-needed">🛠 What My Project Actually Needed</a></li><li><a href="#-mongodb-reasons-i-skipped-it">❌ MongoDB: Reasons I Skipped It</a></li><li><a href="#-what-i-used-instead">✅ What I Used Instead</a><ul><li><a href="#plain-json-or-txt-files">Plain .json or .txt Files</a></li></ul></li><li><a href="#-future-proofing-options">🚀 Future-Proofing Options</a></li><li><a href="#-takeaway">📝 Takeaway</a></li></ul>
+            </nav>
+          </aside>
+        
+        <h2 id="-the-varsity-audio-project">🎧 The Varsity Audio Project</h2>
+
+<p>The <strong>Varsity Audio</strong> tool was built to make financial education more accessible by converting text-based content into audio, chapter by chapter.</p>
+
+<p>This post explains <strong>why I chose not to use MongoDB</strong>, even though it’s a popular default in many full-stack setups.</p>
+
+<hr />
+
+<h2 id="-my-initial-considerations">💭 My Initial Considerations</h2>
+
+<ul>
+  <li>MongoDB is popular with modern MERN stacks</li>
+  <li>JSON-like structure seemed ideal for chapter content</li>
+  <li>Mongoose simplifies schema validation</li>
+  <li>Many tutorials start with MongoDB by default</li>
+</ul>
+
+<p>But I paused and asked myself:</p>
+
+<blockquote>
+  <p><em>Do I really need a full-fledged database for this tool?</em></p>
+</blockquote>
+
+<hr />
+
+<h2 id="-what-my-project-actually-needed">🛠 What My Project Actually Needed</h2>
+
+<ul>
+  <li>Store chapters (title, text, tags, audio URL)</li>
+  <li>Fast read access for frontend</li>
+  <li>Occasional updates or edits</li>
+  <li>Low complexity, quick deploy</li>
+  <li>Version control for chapter data</li>
+</ul>
+
+<hr />
+
+<h2 id="-mongodb-reasons-i-skipped-it">❌ MongoDB: Reasons I Skipped It</h2>
+
+<ol>
+  <li>
+    <p><strong>Unnecessary Complexity</strong><br />
+Using MongoDB for storing static or semi-static chapters felt like overkill.</p>
+  </li>
+  <li>
+    <p><strong>Lock-in Risk</strong><br />
+Schemas might evolve, but I didn’t want to commit to one DB tool early.</p>
+  </li>
+  <li>
+    <p><strong>Extra Setup</strong><br />
+Required provisioning a database, managing connection logic, credentials, backups, etc.</p>
+  </li>
+  <li>
+    <p><strong>Not Git-Friendly</strong><br />
+I wanted version control over my content — MongoDB doesn’t play well with Git.</p>
+  </li>
+</ol>
+
+<hr />
+
+<h2 id="-what-i-used-instead">✅ What I Used Instead</h2>
+
+<h3 id="plain-json-or-txt-files">Plain <code class="language-plaintext highlighter-rouge">.json</code> or <code class="language-plaintext highlighter-rouge">.txt</code> Files</h3>
+
+<ul>
+  <li>Easy to edit</li>
+  <li>Committed in Git</li>
+  <li>Simple <code class="language-plaintext highlighter-rouge">fs.readFile()</code> or <code class="language-plaintext highlighter-rouge">fetch()</code> usage</li>
+  <li>Perfect for Render or any static/flat-file backend</li>
+</ul>
+
+<hr />
+
+<h2 id="-future-proofing-options">🚀 Future-Proofing Options</h2>
+
+<ul>
+  <li>Migrate to MongoDB or SQLite <strong>only when needed</strong></li>
+  <li>Add indexing or caching layers later</li>
+  <li>Optional CMS or admin panel to manage <code class="language-plaintext highlighter-rouge">.json</code> entries</li>
+</ul>
+
+<hr />
+
+<h2 id="-takeaway">📝 Takeaway</h2>
+
+<blockquote>
+  <p><em>Build for now, scale for later.</em></p>
+</blockquote>
+
+<p>Avoiding MongoDB helped me <strong>stay lean and ship fast</strong>.<br />
+For content-first apps like Varsity Audio, simplicity wins.</p>
+
+<hr />
+
+<p>Stay tuned — I’ll publish the code and deployment guide in the next post!</p>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2025-08-05T00:00:00+00:00">August 5, 2025</time></p>
+
+      </footer>
+
+      <section class="page__share">
+  <h4 class="page__share-title">Share on</h4>
+
+  <a href="https://x.com/intent/tweet?text=Varsity+Audio%3A+Why+I+avoided+MongoDB%20https%3A%2F%2Fnishith.is-a.dev%2Fvarsity-audio-why-i-avoided-mongodb%2F" class="btn btn--x" aria-label="Share on X" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on X">
+    <i class="fab fa-fw fa-x-twitter" aria-hidden="true"></i><span> X</span>
+  </a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fnishith.is-a.dev%2Fvarsity-audio-why-i-avoided-mongodb%2F" class="btn btn--facebook" aria-label="Share on Facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook">
+    <i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span>
+  </a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://nishith.is-a.dev/varsity-audio-why-i-avoided-mongodb/" class="btn btn--linkedin" aria-label="Share on LinkedIn" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn">
+    <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span>
+  </a>
+
+  <a href="https://bsky.app/intent/compose?text=Varsity+Audio%3A+Why+I+avoided+MongoDB%20https%3A%2F%2Fnishith.is-a.dev%2Fvarsity-audio-why-i-avoided-mongodb%2F" class="btn btn--bluesky" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Bluesky">
+    <i class="fab fa-fw fa-bluesky" aria-hidden="true"></i><span> Bluesky</span>
+  </a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/varsity-audio-how-chatgpt-was-used-to-build-it/" class="pagination--pager" title="Varsity Audio – how ChatGPT was used to build it">Previous</a>
+    
+    
+      <a href="#" class="pagination--pager disabled">Next</a>
+    
+  </nav>
+
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    
+<div class="page__related">
+  
+  <h2 class="page__related-title">You May Also Enjoy</h2>
+  <div class="grid__wrapper">
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/varsity-audio-how-chatgpt-was-used-to-build-it/" rel="permalink">Varsity Audio – how ChatGPT was used to build it
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">🎧 What You Can Gain from Varsity Audio
+</p>
+  </article>
+</div>
+
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/using-practical-tools-to-stay-focused-while-coding/" rel="permalink">Using practical tools to stay focused while coding
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">Coming soon: Using practical tools to stay focused while coding
+</p>
+  </article>
+</div>
+
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/using-midjourney-to-design-story-characters/" rel="permalink">Using MidJourney to design story characters
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">Coming soon: Using MidJourney to design story characters
+</p>
+  </article>
+</div>
+
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/using-ai-in-episodic-animation-pipelines/" rel="permalink">Using AI in episodic animation pipelines
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">Coming soon: Using AI in episodic animation pipelines
+</p>
+  </article>
+</div>
+
+    
+  </div>
+</div>
+
+  
+  
+</div>
+
+      
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        
+
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+
+<div class="page__footer-copyright">&copy; 2025 <a href="https://nishith.is-a.dev">Nishith Singhai</a>. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

@@ -600,14 +600,14 @@ var store = [{
         "teaser": null
       },{
         "title": "Varsity Audio – how ChatGPT was used to build it",
-        "excerpt":"Coming soon: Varsity Audio – how ChatGPT was used to build it   Stay tuned.  ","categories": ["blog"],
+        "excerpt":"🎧 What You Can Gain from Varsity Audio Learn financial concepts while walking, commuting, or relaxing No need to read long text on screen — just listen Perfect for auditory learners Helps revise Zerodha Varsity content on-the-go Available in lightweight formats (MP3) 💡 Why I Built Varsity Audio I wanted...","categories": ["blog"],
         "tags": ["chatgpt","ai","tools","personal"],
         "url": "/varsity-audio-how-chatgpt-was-used-to-build-it/",
         "teaser": null
       },{
         "title": "Varsity Audio: Why I avoided MongoDB",
-        "excerpt":"Coming soon: Varsity Audio: Why I avoided MongoDB   Stay tuned.  ","categories": ["blog"],
-        "tags": ["chatgpt","ai","tools","personal"],
+        "excerpt":"🎧 The Varsity Audio Project The Varsity Audio tool was built to make financial education more accessible by converting text-based content into audio, chapter by chapter. This post explains why I chose not to use MongoDB, even though it’s a popular default in many full-stack setups. 💭 My Initial Considerations...","categories": [],
+        "tags": ["varsity","mongodb","backend","blog"],
         "url": "/varsity-audio-why-i-avoided-mongodb/",
         "teaser": null
       }]
