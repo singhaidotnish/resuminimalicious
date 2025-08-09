@@ -8,7 +8,8 @@ permalink: /varsity-audio-how-chatgpt-was-used-to-build-it/
 read_time: true
 toc: true
 toc_label: "On this page"
-share: true
+share: false
+comments: true
 related: true
 
 ---

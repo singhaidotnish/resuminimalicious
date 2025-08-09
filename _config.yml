@@ -2,13 +2,19 @@ title: "Nishith Singhai"
 description: "Creative Technophile | AI/VFX Learner | Resume + Blog"
 email: singhai.nish@gmail.com
 url: "https://nishith.is-a.dev"
-baseurl: "" # <-- keep empty unless you're hosting under a subfolder
+baseurl: ""
 
 author:
   name: Nishith Singhai
   avatar: "/assets/images/avatar.png"
 
-theme: minimal-mistakes-jekyll
+# Use ONE of these:
+# If building via GitHub Pages with remote theme:
+remote_theme: "mmistakes/minimal-mistakes"
+# If building via gem locally instead, comment the line above and use:
+# theme: minimal-mistakes-jekyll
+
+minimal_mistakes_skin: default
 
 collections:
   experience:
@@ -19,34 +25,85 @@ collections:
     output: true
     permalink: /:path/
 
+# --- Giscus (comments provider) ---
+comments:
+  provider: "giscus"
+  giscus:
+    repo: "zarir-engineer/resuminimalicious"        # e.g. singhaidotnish/blog
+    repo_id: "R_kgDOPShSDQ"
+    category: "General"
+    category_id: "DIC_kwDOPShSDc4Ct8YI"
+    mapping: "pathname"
+    reactions_enabled: "1"
+    emit_metadata: "0"
+    theme: "light"
+
+# --- Defaults (one per type) ---
 defaults:
   - scope:
       path: ""
-      type: "pages"
+      type: posts
     values:
       layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: false
+      related: true
+      toc: true
+      toc_sticky: true
+
+  - scope:
+      path: ""
+      type: pages     # this refers to your _pages collection
+    values:
+      layout: single
+      author_profile: true
+      comments: false
+      share: false
       toc: true
       toc_sticky: true
       toc_label: "On this page"
-      toc_icon: "book"
+
   - scope:
       path: ""
-      type: "experience"
+      type: docs
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      toc_sticky: true
+      sidebar:
+        nav: "docs"
+
+  - scope:
+      path: ""
+      type: recipes
     values:
       layout: single
       author_profile: true
+      share: false
+      comments: true
+
   - scope:
       path: ""
-      type: "education"
+      type: pets
     values:
       layout: single
       author_profile: true
+      share: false
+      comments: true
+
   - scope:
       path: ""
-      type: "posts"
+      type: portfolio
     values:
       layout: single
-      author_profile: true
+      author_profile: false
+      share: false
+      comments: false
 
 sass:
   style: compressed
@@ -56,5 +113,5 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
-
-minimal_mistakes_skin: default
+  # needed if using remote_theme:
+  - jekyll-remote-theme
