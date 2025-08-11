@@ -14,8 +14,9 @@ date: 2025-08-05
 tags: [varsity, mongodb, backend, blog]
 author_profile: false
 read_time: true
-share: true
+share: false
 related: true
+comments: true
 permalink: /varsity-audio-why-i-avoided-mongodb/
 ---
 
