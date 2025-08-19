@@ -3,3 +3,5 @@ main:
     url: /
   - title: "Résumé"
     url: /resume/
+  - title: "Projects"
+    url: /projects/

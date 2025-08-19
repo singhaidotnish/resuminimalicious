@@ -1,0 +1,563 @@
+.
+├── assets
+│   ├── css
+│   │   ├── custom.css
+│   │   └── main.scss
+│   ├── images
+│   │   ├── avatar.png
+│   │   └── avatar.png.old
+│   ├── js
+│   │   ├── lunr
+│   │   │   ├── lunr-en.js
+│   │   │   ├── lunr-gr.js
+│   │   │   ├── lunr.js
+│   │   │   ├── lunr.min.js
+│   │   │   └── lunr-store.js
+│   │   ├── _main.js
+│   │   ├── main.min.js
+│   │   ├── main.min.js.map
+│   │   ├── plugins
+│   │   │   ├── gumshoe.js
+│   │   │   ├── jquery.ba-throttle-debounce.js
+│   │   │   ├── jquery.fitvids.js
+│   │   │   ├── jquery.greedy-navigation.js
+│   │   │   ├── jquery.magnific-popup.js
+│   │   │   └── smooth-scroll.js
+│   │   └── vendor
+│   │       └── jquery
+│   └── projects
+│       ├── neo-titanium-mp.png
+│       └── varsity-audio-monorepo.png
+├── CHANGELOG.md
+├── CNAME
+├── _config.yml
+├── _data
+│   ├── education.yml
+│   ├── experience.yml
+│   ├── navigation.yml
+│   ├── resume.yml
+│   ├── skills.yml
+│   └── ui-text.yml
+├── deploy.sh
+├── docs
+│   ├── assets
+│   │   └── images
+│   │       ├── 350x250.png
+│   │       ├── 3953273590_704e3899d5_m.jpg
+│   │       ├── 500x300.png
+│   │       ├── air-skin-archive-large.png
+│   │       ├── air-skin-archive.png
+│   │       ├── air-skin-post-large.png
+│   │       ├── air-skin-post.png
+│   │       ├── android-chrome-144x144.png
+│   │       ├── android-chrome-192x192.png
+│   │       ├── android-chrome-36x36.png
+│   │       ├── android-chrome-48x48.png
+│   │       ├── android-chrome-72x72.png
+│   │       ├── android-chrome-96x96.png
+│   │       ├── apple-touch-icon-114x114.png
+│   │       ├── apple-touch-icon-120x120.png
+│   │       ├── apple-touch-icon-144x144.png
+│   │       ├── apple-touch-icon-152x152.png
+│   │       ├── apple-touch-icon-180x180.png
+│   │       ├── apple-touch-icon-57x57.png
+│   │       ├── apple-touch-icon-60x60.png
+│   │       ├── apple-touch-icon-72x72.png
+│   │       ├── apple-touch-icon-76x76.png
+│   │       ├── apple-touch-icon.png
+│   │       ├── apple-touch-icon-precomposed.png
+│   │       ├── aqua-skin-archive-large.png
+│   │       ├── aqua-skin-archive.png
+│   │       ├── aqua-skin-post-large.png
+│   │       ├── aqua-skin-post.png
+│   │       ├── bio-photo-2.jpg
+│   │       ├── bio-photo.jpg
+│   │       ├── browserconfig.xml
+│   │       ├── contrast-code-block.jpg
+│   │       ├── contrast-skin-archive-large.png
+│   │       ├── contrast-skin-archive.png
+│   │       ├── contrast-skin-post-large.png
+│   │       ├── contrast-skin-post.png
+│   │       ├── dark-code-block.jpg
+│   │       ├── dark-skin-archive-large.png
+│   │       ├── dark-skin-archive.png
+│   │       ├── dark-skin-post-large.png
+│   │       ├── dark-skin-post.png
+│   │       ├── default-code-block.jpg
+│   │       ├── dirt-code-block.jpg
+│   │       ├── dirt-skin-archive-large.png
+│   │       ├── dirt-skin-archive.png
+│   │       ├── dirt-skin-post-large.png
+│   │       ├── dirt-skin-post.png
+│   │       ├── dracula-code-block.jpg
+│   │       ├── facebook-share-example.jpg
+│   │       ├── favicon-16x16.png
+│   │       ├── favicon-32x32.png
+│   │       ├── favicon-96x96.png
+│   │       ├── favicon.ico
+│   │       ├── foo-bar-identity.jpg
+│   │       ├── foo-bar-identity-th.jpg
+│   │       ├── google-custom-search-engine-layout.png
+│   │       ├── image-alignment-1200x4002.jpg
+│   │       ├── image-alignment-150x150.jpg
+│   │       ├── image-alignment-300x200.jpg
+│   │       ├── image-alignment-580x300.jpg
+│   │       ├── manifest.json
+│   │       ├── markup-syntax-highlighting-teaser.jpg
+│   │       ├── masthead-search.gif
+│   │       ├── michael-rose.jpg
+│   │       ├── mint-skin-archive-large.png
+│   │       ├── mint-skin-archive.png
+│   │       ├── mint-skin-post-large.png
+│   │       ├── mint-skin-post.png
+│   │       ├── mm-archive-grid-view-example.jpg
+│   │       ├── mm-author-profile-reddit-color.png
+│   │       ├── mm-author-profile-reddit-gs.png
+│   │       ├── mm-author-sidebar-example.jpg
+│   │       ├── mm-breadcrumbs-example.jpg
+│   │       ├── mm-browser-mockups.png
+│   │       ├── mm-bundle-install.gif
+│   │       ├── mm-customizable-feature.png
+│   │       ├── mm-custom-sidebar-example.jpg
+│   │       ├── mm-custom-sidebar-nav.jpg
+│   │       ├── mm-free-feature.png
+│   │       ├── mm-gh-pages.gif
+│   │       ├── mm-github-copy-repo-url.jpg
+│   │       ├── mm-github-edit-config.gif
+│   │       ├── mm-header-overlay-black-filter.jpg
+│   │       ├── mm-header-overlay-custom-filter.jpg
+│   │       ├── mm-header-overlay-red-filter.jpg
+│   │       ├── mm-home-page-feature.jpg
+│   │       ├── mm-home-post-pagination-example.jpg
+│   │       ├── mm-layout-archive.png
+│   │       ├── mm-layout-archive-taxonomy.png
+│   │       ├── mm-layout-examples.png
+│   │       ├── mm-layout-single-header.png
+│   │       ├── mm-layout-single-meta.png
+│   │       ├── mm-layout-single.png
+│   │       ├── mm-layout-splash.png
+│   │       ├── mm-masthead-logo.png
+│   │       ├── mm-paragraph-indent-example.jpg
+│   │       ├── mm-portfolio-collection-example.jpg
+│   │       ├── mm-post-date-example.png
+│   │       ├── mm-priority-plus-masthead.gif
+│   │       ├── mm-read-time-example.jpg
+│   │       ├── mm-responsive-feature.png
+│   │       ├── mm-single-header-example.jpg
+│   │       ├── mm-single-header-overlay-example.jpg
+│   │       ├── mm-single-header-overlay-fill-example.jpg
+│   │       ├── mm-social-share-links-default.png
+│   │       ├── mm-social-share-links-reddit-color.png
+│   │       ├── mm-social-share-links-reddit-gs.png
+│   │       ├── mm-staticman-pr-webhook.jpg
+│   │       ├── mm-susy-grid-overlay.jpg
+│   │       ├── mm-teaser-images-example.jpg
+│   │       ├── mm-theme-fork-repo.png
+│   │       ├── mm-theme-post-600.jpg
+│   │       ├── mm-theme-post-750.jpg
+│   │       ├── mm-toc-helper-example.jpg
+│   │       ├── mm-twitter-card-summary-image.jpg
+│   │       ├── mm-twitter-card-summary-large.jpg
+│   │       ├── mm-ui-text-labels.jpg
+│   │       ├── mstile-144x144.png
+│   │       ├── mstile-150x150.png
+│   │       ├── mstile-310x150.png
+│   │       ├── mstile-310x310.png
+│   │       ├── mstile-70x70.png
+│   │       ├── neon-code-block.jpg
+│   │       ├── neon-skin-archive-large.png
+│   │       ├── neon-skin-archive.png
+│   │       ├── neon-skin-post-large.png
+│   │       ├── neon-skin-post.png
+│   │       ├── page-header-image.png
+│   │       ├── page-header-og-image.png
+│   │       ├── page-header-overlay-image.png
+│   │       ├── page-header-teaser.png
+│   │       ├── paragraph-indent.png
+│   │       ├── paragraph-no-indent.png
+│   │       ├── plum-code-block.jpg
+│   │       ├── plum-skin-archive-large.png
+│   │       ├── plum-skin-archive.png
+│   │       ├── plum-skin-post-large.png
+│   │       ├── plum-skin-post.png
+│   │       ├── safari-pinned-tab.svg
+│   │       ├── search-layout-example.png
+│   │       ├── site-logo.png
+│   │       ├── solarized-light-code-block.jpg
+│   │       ├── sunrise-code-block.jpg
+│   │       ├── sunrise-skin-archive-large.png
+│   │       ├── sunrise-skin-archive.png
+│   │       ├── sunrise-skin-post-large.png
+│   │       ├── sunrise-skin-post.png
+│   │       ├── unsplash-gallery-image-1.jpg
+│   │       ├── unsplash-gallery-image-1-th.jpg
+│   │       ├── unsplash-gallery-image-2.jpg
+│   │       ├── unsplash-gallery-image-2-th.jpg
+│   │       ├── unsplash-gallery-image-3.jpg
+│   │       ├── unsplash-gallery-image-3-th.jpg
+│   │       ├── unsplash-gallery-image-4.jpg
+│   │       ├── unsplash-gallery-image-4-th.jpg
+│   │       ├── unsplash-image-10.jpg
+│   │       ├── unsplash-image-11.jpg
+│   │       ├── unsplash-image-1.jpg
+│   │       ├── unsplash-image-2.jpg
+│   │       ├── unsplash-image-3.jpg
+│   │       ├── unsplash-image-4.jpg
+│   │       ├── unsplash-image-5.jpg
+│   │       ├── unsplash-image-6.jpg
+│   │       ├── unsplash-image-7.jpg
+│   │       ├── unsplash-image-8.jpg
+│   │       └── unsplash-image-9.jpg
+│   ├── _config.dev.yml
+│   ├── _config.yml
+│   ├── _data
+│   │   ├── authors.yml
+│   │   ├── comments
+│   │   │   ├── chocolate-chip-cookies
+│   │   │   ├── gemified-theme-beta
+│   │   │   ├── layout-comments
+│   │   │   ├── layout-header-image-horizontal
+│   │   │   ├── layout-header-image-text-readability
+│   │   │   ├── layout-header-overlay-image
+│   │   │   ├── layout-related-posts
+│   │   │   ├── layout-sidebar-custom
+│   │   │   ├── layout-sidebar-nav-list
+│   │   │   ├── layout-table-of-contents-post
+│   │   │   ├── markup-image-alignment
+│   │   │   ├── markup-more-images
+│   │   │   ├── markup-syntax-highlighting
+│   │   │   ├── post-future-date
+│   │   │   ├── post-gallery
+│   │   │   ├── post-modified
+│   │   │   ├── post-video-youtube
+│   │   │   └── welcome-to-jekyll
+│   │   ├── navigation.yml
+│   │   └── theme.yml
+│   ├── _docs
+│   │   ├── 01-quick-start-guide.md
+│   │   ├── 02-structure.md
+│   │   ├── 03-installation.md
+│   │   ├── 04-upgrading.md
+│   │   ├── 05-configuration.md
+│   │   ├── 06-overriding-theme-defaults.md
+│   │   ├── 07-navigation.md
+│   │   ├── 08-ui-text.md
+│   │   ├── 09-authors.md
+│   │   ├── 10-layouts.md
+│   │   ├── 11-posts.md
+│   │   ├── 12-pages.md
+│   │   ├── 13-collections.md
+│   │   ├── 14-helpers.md
+│   │   ├── 15-utility-classes.md
+│   │   ├── 16-stylesheets.md
+│   │   ├── 17-javascript.md
+│   │   ├── 18-history.md
+│   │   ├── 19-contributing.md
+│   │   ├── 20-docs-2-2.md
+│   │   ├── 21-license.md
+│   │   └── 22-faq.md
+│   ├── _drafts
+│   │   └── post-draft.md
+│   ├── Gemfile
+│   ├── _includes
+│   │   ├── after-content.html
+│   │   ├── before-related.html
+│   │   └── comments-providers
+│   │       └── scripts.html
+│   ├── _pages
+│   │   ├── 404.md
+│   │   ├── about.md
+│   │   ├── archive-layout-with-content.md
+│   │   ├── category-archive.md
+│   │   ├── collection-archive.html
+│   │   ├── edge-case.md
+│   │   ├── home.md
+│   │   ├── lorem-ipsum.md
+│   │   ├── markup.md
+│   │   ├── page-a.md
+│   │   ├── page-archive.html
+│   │   ├── page-b.md
+│   │   ├── pets.md
+│   │   ├── portfolio-archive.md
+│   │   ├── post-archive-feature-rows.html
+│   │   ├── recipes-archive.md
+│   │   ├── sample-page.md
+│   │   ├── sitemap.md
+│   │   ├── splash-page.md
+│   │   ├── tag-archive.md
+│   │   ├── terms.md
+│   │   └── year-archive.md
+│   ├── _pets
+│   │   ├── lhasa-apso.md
+│   │   └── tabby.md
+│   ├── _portfolio
+│   │   ├── baz-boom-identity.md
+│   │   ├── fizz-bang-identity.md
+│   │   ├── foo-bar-website.md
+│   │   └── ginger-gulp-identity.md
+│   ├── _posts
+│   │   ├── 2009-05-15-edge-case-nested-and-mixed-lists.md
+│   │   ├── 2009-06-01-edge-case-many-tags.md
+│   │   ├── 2009-07-02-edge-case-many-categories.md
+│   │   ├── 2009-08-06-edge-case-no-body-content.md
+│   │   ├── 2009-09-05-edge-case-no-yaml-title.md
+│   │   ├── 2009-10-05-edge-case-multiline-excerpt.md
+│   │   ├── 2009-10-05-edge-case-title-should-not-overflow-the-content-area.md
+│   │   ├── 2009-10-05-edge-case-very-long-title.md
+│   │   ├── 2009-10-06-edge-case-broken-highlighting.md
+│   │   ├── 2010-01-07-post-modified.md
+│   │   ├── 2010-01-07-post-standard.md
+│   │   ├── 2010-01-08-post-chat.md
+│   │   ├── 2010-02-05-post-notice.md
+│   │   ├── 2010-02-05-post-quote.md
+│   │   ├── 2010-03-07-post-link.md
+│   │   ├── 2010-06-02-post-video-youtube.md
+│   │   ├── 2010-08-05-post-header-image-og-override.md
+│   │   ├── 2010-08-05-post-header-overlay-image-og-override.md
+│   │   ├── 2010-08-05-post-image-linked.md
+│   │   ├── 2010-08-05-post-image-standard.md
+│   │   ├── 2010-08-05-post-teaser-image-og-override.md
+│   │   ├── 2010-08-06-post-image-linked-caption.md
+│   │   ├── 2010-08-07-post-image-caption.md
+│   │   ├── 2010-09-09-post-gallery.md
+│   │   ├── 2010-09-10-post-twitter-embeds.md
+│   │   ├── 2010-10-25-post-future-date.md
+│   │   ├── 2012-01-02-layout-comments-disabled.md
+│   │   ├── 2012-01-02-layout-comments.md
+│   │   ├── 2012-01-02-layout-post-date-disabled.md
+│   │   ├── 2012-01-02-layout-post-date.md
+│   │   ├── 2012-01-02-layout-read-time-disabled.md
+│   │   ├── 2012-01-02-layout-read-time.md
+│   │   ├── 2012-01-02-layout-related-posts-disabled.md
+│   │   ├── 2012-01-02-layout-related-posts.md
+│   │   ├── 2012-01-02-layout-sharing-disabled.md
+│   │   ├── 2012-01-02-layout-sharing.md
+│   │   ├── 2012-01-03-layout-read-time-comments-sharing-related-posts-disabled.md
+│   │   ├── 2012-01-03-layout-table-of-contents-include-post.md
+│   │   ├── 2012-01-03-layout-table-of-contents-indent-post.md
+│   │   ├── 2012-01-03-layout-table-of-contents-post.md
+│   │   ├── 2012-01-03-layout-table-of-contents-sticky.md
+│   │   ├── 2012-03-14-layout-code-excerpt-generated.md
+│   │   ├── 2012-03-14-layout-excerpt-defined.md
+│   │   ├── 2012-03-14-layout-excerpt-generated.md
+│   │   ├── 2012-03-15-layout-author-override.md
+│   │   ├── 2012-03-15-layout-author-sidebar-disabled.md
+│   │   ├── 2012-03-15-layout-header-image-external.md
+│   │   ├── 2012-03-15-layout-header-image-horizontal.md
+│   │   ├── 2012-03-15-layout-header-image-text-readability.md
+│   │   ├── 2012-03-15-layout-header-image-vertical.md
+│   │   ├── 2012-03-15-layout-header-overlay-color.md
+│   │   ├── 2012-03-15-layout-header-overlay-image.md
+│   │   ├── 2012-03-15-layout-header-overlay-image-tagline.md
+│   │   ├── 2012-03-15-layout-more-tag.md
+│   │   ├── 2012-03-15-layout-sidebar-custom.md
+│   │   ├── 2012-03-15-layout-sidebar-nav-list.md
+│   │   ├── 2012-05-22-markup-text-readability.md
+│   │   ├── 2012-05-22-markup-text-readability-wide-page.md
+│   │   ├── 2013-01-05-markup-title-with-markup.md
+│   │   ├── 2013-01-05-markup-title-with-special-characters.md
+│   │   ├── 2013-01-09-markup-text-alignment.md
+│   │   ├── 2013-01-10-markup-image-alignment.md
+│   │   ├── 2013-01-11-markup-html-tags-and-formatting.md
+│   │   ├── 2013-05-22-markup-more-images.md
+│   │   ├── 2013-08-16-markup-syntax-highlighting.md
+│   │   ├── 2016-02-24-welcome-to-jekyll.md
+│   │   ├── 2016-09-21-gemified-theme-alpha.md
+│   │   ├── 2016-10-06-gemified-theme-beta.md
+│   │   ├── 2017-01-23-layout-header-video.md
+│   │   └── 2017-11-28-post-exclude-search.md
+│   ├── Rakefile
+│   ├── _recipes
+│   │   ├── chocolate-chip-cookies.md
+│   │   ├── oatmeal-cookies.md
+│   │   └── peanut-butter-cookies.md
+│   ├── screenshot-layouts.png
+│   └── screenshot.png
+├── favicon.ico
+├── Gemfile
+├── _includes
+│   ├── after-content.html
+│   ├── analytics.html
+│   ├── analytics-providers
+│   │   ├── custom.html
+│   │   ├── google-gtag.html
+│   │   ├── google.html
+│   │   └── google-universal.html
+│   ├── archive-single.html
+│   ├── author-profile-custom-links.html
+│   ├── author-profile.html
+│   ├── before-related.html
+│   ├── breadcrumbs.html
+│   ├── category-list.html
+│   ├── comment.html
+│   ├── comments.html
+│   ├── comments-providers
+│   │   ├── custom.html
+│   │   ├── custom_scripts.html
+│   │   ├── discourse.html
+│   │   ├── disqus.html
+│   │   ├── facebook.html
+│   │   ├── giscus.html
+│   │   ├── scripts.html
+│   │   ├── staticman.html
+│   │   ├── staticman_v2.html
+│   │   └── utterances.html
+│   ├── copyright.html
+│   ├── copyright.js
+│   ├── custom_resume
+│   │   ├── contact.html
+│   │   ├── contact-modal.html
+│   │   ├── foot.html
+│   │   ├── head.html
+│   │   ├── icon-links.html
+│   │   ├── icons
+│   │   │   └── icon-blog.html
+│   │   ├── print-social-links.html
+│   │   └── skills.html
+│   ├── documents-collection.html
+│   ├── feature_row
+│   ├── figure
+│   ├── footer
+│   │   └── custom.html
+│   ├── footer.html
+│   ├── gallery
+│   ├── group-by-array
+│   ├── head
+│   │   └── custom.html
+│   ├── head.html
+│   ├── masthead.html
+│   ├── nav_list
+│   ├── page__date.html
+│   ├── page__hero.html
+│   ├── page__hero_video.html
+│   ├── page__meta.html
+│   ├── page__related.html
+│   ├── page__taxonomy.html
+│   ├── paginator.html
+│   ├── paginator-v1.html
+│   ├── paginator-v2.html
+│   ├── post_pagination.html
+│   ├── posts-category.html
+│   ├── posts-tag.html
+│   ├── posts-taxonomy.html
+│   ├── schema.html
+│   ├── scripts.html
+│   ├── search
+│   │   ├── algolia-search-scripts.html
+│   │   ├── google-search-scripts.html
+│   │   ├── lunr-search-scripts.html
+│   │   └── search_form.html
+│   ├── seo.html
+│   ├── sidebar.html
+│   ├── skip-links.html
+│   ├── social-share.html
+│   ├── tag-list.html
+│   ├── toc
+│   ├── toc.html
+│   └── video
+├── index.html
+├── _layouts
+│   ├── archive.html
+│   ├── archive-taxonomy.html
+│   ├── categories.html
+│   ├── category.html
+│   ├── collection.html
+│   ├── compress.html
+│   ├── default.html
+│   ├── home.html
+│   ├── posts.html
+│   ├── search.html
+│   ├── single.html
+│   ├── splash.html
+│   ├── tag.html
+│   └── tags.html
+├── LICENSE
+├── _pages
+│   └── resume.md
+├── _posts
+│   ├── 2024-01-10-my-first-post.md
+│   ├── 2025-07-29-vfx-automation-insights.md 
+│   ├── 2025-08-05-building-a-condition-engine-inspired-by-tradetron.md
+│   ├── 2025-08-05-building-a-houdini-tool-with-ai-assisted-workflows.md
+│   ├── 2025-08-05-building-the-build-your-dream-tool-concept-to-working-prototype.md
+│   ├── 2025-08-05-can-chatgpt-replace-a-tech-lead-for-solo-projects.md
+│   ├── 2025-08-05-comparing-houdini-vs-blender-for-procedural-workflows.md
+│   ├── 2025-08-05-creating-a-spinner-based-ratio-allocation-ui-in-react.md
+│   ├── 2025-08-05-designing-logos-and-blog-headers-using-ai.md
+│   ├── 2025-08-05-from-idea-to-tool-storyboarding-with-ai.md
+│   ├── 2025-08-05-hosting-a-websocket-client-on-the-cloud-for-real-time-updates.md
+│   ├── 2025-08-05-hosting-python-tools-with-railway-for-real-time-data.md
+│   ├── 2025-08-05-how-i-built-a-condition-builder-using-chatgpt-and-react.md
+│   ├── 2025-08-05-how-i-combine-biking-coding-to-regulate-my-brain.md
+│   ├── 2025-08-05-how-i-planned-an-animation-workflow-using-runwayml.md
+│   ├── 2025-08-05-how-i-structured-my-nextjs-express-mongodb-stack.md
+│   ├── 2025-08-05-how-i-use-chatgpt-to-debug-code-effectively.md
+│   ├── 2025-08-05-how-i-visualize-project-ideas-using-drawio.md
+│   ├── 2025-08-05-learn-by-practically-making-a-tool-minimal-pyqt5-ai-infused-tool.md
+│   ├── 2025-08-05-learning-ai-for-an-adhd-mind-step-by-step-guidance-from-chatgpt.md
+│   ├── 2025-08-05-learning-ai-with-an-adhd-brain-what-works-for-me.md
+│   ├── 2025-08-05-migrating-from-staticman-to-custom-backend-for-jekyll-comments.md
+│   ├── 2025-08-05-my-approach-to-learning-python-while-being-distractible.md
+│   ├── 2025-08-05-open-source-tools-i-contributed-to-as-a-vfx-td.md
+│   ├── 2025-08-05-partition-tree-app-challenges-and-lessons.md
+│   ├── 2025-08-05-real-time-automation-tools-for-vfx-production.md
+│   ├── 2025-08-05-real-world-use-of-gpt-in-data-driven-storytelling.md
+│   ├── 2025-08-05-resuminimalicious-how-chatgpt-was-used-to-build-it.md
+│   ├── 2025-08-05-step-by-step-guide-to-infusing-ai-in-pyqt5.md
+│   ├── 2025-08-05-tasker-ai-automation-for-neurodiverse-minds.md
+│   ├── 2025-08-05-using-ai-for-market-pattern-recognition-in-trading.md
+│   ├── 2025-08-05-using-ai-in-episodic-animation-pipelines.md
+│   ├── 2025-08-05-using-midjourney-to-design-story-characters.md
+│   ├── 2025-08-05-using-practical-tools-to-stay-focused-while-coding.md
+│   ├── 2025-08-05-varsity-audio-how-chatgpt-was-used-to-build-it.md
+│   └── 2025-08-05-varsity-audio-why-i-avoided-mongodb.md
+├── projects.html
+├── Rakefile
+├── README.md
+├── robots.txt
+├── _sass
+│   ├── custom.scss
+│   ├── minimal-mistakes
+│   │   ├── _animations.scss
+│   │   ├── _archive.scss
+│   │   ├── _base.scss
+│   │   ├── _buttons.scss
+│   │   ├── _copyright.scss
+│   │   ├── _footer.scss
+│   │   ├── _forms.scss
+│   │   ├── _masthead.scss
+│   │   ├── _mixins.scss
+│   │   ├── _navigation.scss
+│   │   ├── _notices.scss
+│   │   ├── _page.scss
+│   │   ├── _print.scss
+│   │   ├── _reset.scss
+│   │   ├── _search.scss
+│   │   ├── _sidebar.scss
+│   │   ├── skins
+│   │   │   ├── _air.scss
+│   │   │   ├── _aqua.scss
+│   │   │   ├── _contrast.scss
+│   │   │   ├── _dark.scss
+│   │   │   ├── _default.scss
+│   │   │   ├── _dirt.scss
+│   │   │   ├── _mint.scss
+│   │   │   ├── _neon.scss
+│   │   │   ├── _plum.scss
+│   │   │   └── _sunrise.scss
+│   │   ├── _syntax.scss
+│   │   ├── _tables.scss
+│   │   ├── _utilities.scss
+│   │   ├── _variables.scss
+│   │   └── vendor
+│   │       ├── breakpoint
+│   │       ├── magnific-popup
+│   │       └── susy
+│   └── minimal-mistakes.scss
+├── screenshot-layouts.png
+├── screenshot.png
+├── staticman.yml
+├── tree-structure.txt
+└── what-next.md
+
+60 directories, 500 files
