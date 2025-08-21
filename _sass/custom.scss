@@ -11,23 +11,27 @@ h2 {
   color: #333;
 }
 
-/* Homepage graffiti background + whitewash */
+/* Make the graffiti section full-bleed across the viewport */
 .home-graffiti .graffiti-bg {
   position: relative;
-  min-height: calc(100vh - var(--masthead-height, 70px));
+  width: 100vw;                           /* fill viewport width */
+  margin-left: calc(50% - 50vw);          /* break out of container */
+  margin-right: calc(50% - 50vw);
+  min-height: calc(100vh - var(--masthead-height, 70px)); /* tall hero */
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
 
+/* 80% whitewash overlay */
 .home-graffiti .graffiti-bg::after {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(255,255,255,0.8); /* 80% white overlay */
+  background: rgba(255,255,255,0.8);
 }
 
-/* White “painted” canvas for links */
+/* Your white "painted" card stays centered */
 .home-graffiti .canvas-area {
   position: relative;
   z-index: 1;
@@ -43,5 +47,4 @@ h2 {
 .home-graffiti .blog-list li { margin: 0.8rem 0; font-size: 1.12rem; line-height: 1.5; }
 .home-graffiti .blog-list a { text-decoration: none; border-bottom: 1px solid transparent; }
 .home-graffiti .blog-list a:hover { border-bottom-color: currentColor; }
-/* Hide the default page title only on the graffiti home */
-.home-graffiti .page__title { display: none; }
+
