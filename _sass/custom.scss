@@ -43,3 +43,5 @@ h2 {
 .home-graffiti .blog-list li { margin: 0.8rem 0; font-size: 1.12rem; line-height: 1.5; }
 .home-graffiti .blog-list a { text-decoration: none; border-bottom: 1px solid transparent; }
 .home-graffiti .blog-list a:hover { border-bottom-color: currentColor; }
+/* Hide the default page title only on the graffiti home */
+.home-graffiti .page__title { display: none; }
