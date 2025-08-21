@@ -8,6 +8,7 @@ layout: single
 categories: [vfx, automation]
 tags: [houdini, ai, blender, pipeline]
 author: Nishith Singhai
+visible: true
 ---
 
 This post describes my journey building tools that integrate AI into VFX production...

@@ -13,6 +13,7 @@ tags: [houdini, blender, ai, automation, pipeline]
 toc: true
 toc_label: "Jump to Section"
 toc_sticky: true
+visible: true
 ---
 
 ## The Problem with Manual VFX Workflows

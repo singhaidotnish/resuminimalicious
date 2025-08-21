@@ -18,6 +18,7 @@ share: false
 related: true
 comments: true
 permalink: /varsity-audio-why-i-avoided-mongodb/
+visible: true
 ---
 
 

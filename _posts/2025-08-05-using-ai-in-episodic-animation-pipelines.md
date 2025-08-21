@@ -5,6 +5,7 @@ date: 2025-08-05
 categories: blog
 tags: [chatgpt, ai, tools, personal]
 permalink: /using-ai-in-episodic-animation-pipelines/
+visible: true
 ---
 
 ## 🎬 Introduction
