@@ -6,7 +6,7 @@ baseurl: ""
 
 author:
   name: Nishith Singhai
-  avatar: "/assets/images/avatar.png"
+  avatar: "/assets/images/avatar.jpg"
 
 # Use ONE of these:
 # If building via GitHub Pages with remote theme:
