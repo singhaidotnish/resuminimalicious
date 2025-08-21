@@ -10,3 +10,55 @@
 h2 {
   color: #333;
 }
+
+/* Apply only on pages that include 'home-graffiti' in front matter */
+.home-graffiti .graffiti-bg {
+  position: relative;
+  min-height: calc(100vh - var(--masthead-height, 70px)); /* fills viewport under the header */
+  background: url('/assets/images/graffiti-bg.png') no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* 80% white wash over the graffiti */
+.home-graffiti .graffiti-bg::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.8); /* 80% white overlay */
+}
+
+/* The “painted” canvas where your list sits */
+.home-graffiti .canvas-area {
+  position: relative;
+  z-index: 1;         /* above the white overlay */
+  max-width: 860px;
+  margin: 2.5rem auto 4rem;
+  background: #fff;
+  padding: 2rem 2.2rem;
+  border-radius: 14px;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.18);
+}
+
+/* Optional: make it feel like rolled paint edges */
+.home-graffiti .canvas-area {
+  mask-image: radial-gradient(24px at 24px 24px, #000 98%, transparent 100%);
+}
+
+/* Clean list styles */
+.home-graffiti .blog-list {
+  list-style: none;
+  padding: 0;
+  margin: 1.2rem 0 0;
+}
+.home-graffiti .blog-list li {
+  margin: 0.8rem 0;
+  font-size: 1.12rem;
+  line-height: 1.5;
+}
+.home-graffiti .blog-list a {
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+.home-graffiti .blog-list a:hover {
+  border-bottom-color: currentColor;
+}
