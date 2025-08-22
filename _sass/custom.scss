@@ -11,27 +11,22 @@ h2 {
   color: #333;
 }
 
-/* Make the graffiti section full-bleed across the viewport */
-.home-graffiti .graffiti-bg {
-  position: relative;
-  width: 100vw;                           /* fill viewport width */
-  margin-left: calc(50% - 50vw);          /* break out of container */
-  margin-right: calc(50% - 50vw);
-  min-height: calc(100vh - var(--masthead-height, 70px)); /* tall hero */
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
+/* Full-bleed graffiti background for the home layout */
+body.layout--home {
+  /* 80% whitewash overlay + image */
+  background:
+    linear-gradient(rgba(255,255,255,.8), rgba(255,255,255,.8)),
+    url('/assets/images/graffiti-bg.jpg') center center / cover fixed no-repeat;
 }
 
-/* 80% whitewash overlay */
-.home-graffiti .graffiti-bg::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: rgba(255,255,255,0.8);
-}
+/* Let the background show through */
+.layout--home .page,
+.layout--home .page__inner-wrap { background: transparent; }
 
-/* Your white "painted" card stays centered */
+/* Optional: hide the default theme title (you have your own <h1>) */
+.home-graffiti .page__title { display: none; }
+
+/* Your white “painted” card */
 .home-graffiti .canvas-area {
   position: relative;
   z-index: 1;
@@ -42,9 +37,3 @@ h2 {
   border-radius: 14px;
   box-shadow: 0 10px 28px rgba(0,0,0,0.18);
 }
-
-.home-graffiti .blog-list { list-style: none; padding: 0; margin: 1.2rem 0 0; }
-.home-graffiti .blog-list li { margin: 0.8rem 0; font-size: 1.12rem; line-height: 1.5; }
-.home-graffiti .blog-list a { text-decoration: none; border-bottom: 1px solid transparent; }
-.home-graffiti .blog-list a:hover { border-bottom-color: currentColor; }
-
