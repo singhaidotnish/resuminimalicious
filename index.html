@@ -4,15 +4,19 @@ title: "Scatter Mind, Gathered Life"
 permalink: /
 classes: wide home-graffiti
 ---
-<!--<div class="canvas-area">-->
-<!--  <p>A transparent blog of chaos, clarity, and creativity.</p>-->
+<style>
+/* Full-screen graffiti background on home only */
+body.layout--home {
+  background:
+    linear-gradient(rgba(255,255,255,.8), rgba(255,255,255,.8)),
+    url('{{ "/assets/images/graffiti-bg.jpg" | relative_url }}')
+      center center / cover fixed no-repeat !important;
+  /* If your file is PNG, change the extension above */
+}
 
-<!--  <ul class="blog-list">-->
-<!--    <li>🧠 <a href="/blog/scatter-mind-gathered-life/">Scatter Mind, Gathered Life</a></li>-->
-<!--    <li>🚴 <a href="/blog/2800km-bike-ride/">My 2800 km Bike Ride</a></li>-->
-<!--    <li>🐕 <a href="/blog/street-dog-diaries/">Street Dog Diaries</a></li>-->
-<!--    <li>🛠 <a href="/blog/leather-keychain/">Making a Leather Keychain</a></li>-->
-<!--    <li>🌿 <a href="/blog/castor-oil-healing/">Castor Oil Healing</a></li>-->
-<!--    <li>🎭 <a href="/blog/acting-as-alternate-self/">Acting as an Alternate Self</a></li>-->
-<!--  </ul>-->
-<!--</div>-->
+/* Let the page be transparent so the background shows through */
+.layout--home .page,
+.layout--home .page__inner-wrap {
+  background: transparent !important;
+}
+</style>
