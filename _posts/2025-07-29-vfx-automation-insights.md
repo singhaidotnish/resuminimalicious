@@ -14,6 +14,7 @@ toc: true
 toc_label: "Jump to Section"
 toc_sticky: true
 visible: true
+permalink: /vfx-automation-insights/
 ---
 
 ## The Problem with Manual VFX Workflows

@@ -2,9 +2,15 @@
 title: "Learning AI with an ADHD brain: What works for me"
 layout: post
 date: 2025-08-05
+tags: [ai, chatgpt, tts, tools, audio, education]
 categories: blog
-tags: [chatgpt, ai, tools, personal]
 permalink: /learning-ai-with-an-adhd-brain-what-works-for-me/
+read_time: true
+toc: true
+toc_label: "On this page"
+share: false
+comments: true
+related: true
 visible: true
 ---
 
