@@ -1,6 +1,6 @@
 ---
 title: "Trading Concepts Explained: What Does 'Option-Chain in the Backend' Mean?"
-layout: post
+layout: single
 date: 2025-09-02
 tags: [trading, options, backend, option-chain, greeks]
 permalink: /trading-concepts-option-chain-in-backend/

@@ -1,6 +1,6 @@
 ---
 title: "How I Visualize Project Ideas Using draw.io"
-layout: post
+layout: single
 date: 2025-08-15
 tags: [drawio, diagrams, ideas, productivity, tools]
 permalink: /how-i-visualize-project-ideas-using-drawio/

@@ -1,6 +1,6 @@
 ---
 title: "How to Use Google SEO to Get Top Search"
-layout: post
+layout: single
 date: 2025-08-20
 tags: [seo, google, ranking, blogging, growth]
 permalink: /how-to-use-google-seo-to-get-top-search/

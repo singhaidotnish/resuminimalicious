@@ -1,6 +1,6 @@
 ---
 title: "Using AI in episodic animation pipelines"
-layout: post
+layout: single
 date: 2025-08-15
 tags: [chatgpt, react, trading, builder, coding]
 permalink: /how-i-built-a-condition-builder-using-chatgpt-and-react/

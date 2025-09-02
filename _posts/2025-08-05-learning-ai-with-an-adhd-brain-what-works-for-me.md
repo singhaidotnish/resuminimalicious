@@ -1,6 +1,6 @@
 ---
 title: "Learning AI with an ADHD brain: What works for me"
-layout: post
+layout: single
 date: 2025-08-05
 tags: [ai, chatgpt, tts, tools, audio, education]
 categories: blog

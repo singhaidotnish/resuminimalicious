@@ -1,6 +1,6 @@
 ---
 title: "Trading Concepts Explained: What is a Series?"
-layout: post
+layout: single
 date: 2025-09-02
 tags: [trading, series, indicators, concepts, education]
 permalink: /trading-concepts-series-explained/

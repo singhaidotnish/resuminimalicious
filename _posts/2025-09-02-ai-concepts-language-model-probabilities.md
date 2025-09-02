@@ -1,6 +1,6 @@
 ---
 title: "How Language Models Actually Work: Parameters, Probabilities, and Interpretability"
-layout: post
+layout: single
 date: 2025-09-02
 tags: [GPT-2, GPT-3, probabilities, ablation, transformer]
 permalink: /ai-concepts-language-model-probabilities/
