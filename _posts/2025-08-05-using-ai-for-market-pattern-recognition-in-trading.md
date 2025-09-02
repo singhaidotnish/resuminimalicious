@@ -1,6 +1,6 @@
 ---
 title: "Using AI for market pattern recognition in trading"
-layout: post
+layout: single
 date: 2025-08-05
 tags: [ai, chatgpt, tts, tools, audio, education]
 categories: blog
