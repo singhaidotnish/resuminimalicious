@@ -1,3 +1,23 @@
+---
+title: "Raja mircha fermented pickle: A Step-by-Step Guide"
+excerpt: "From tokens and embeddings to attention heads, probabilities, sampling, and ablations — a practical walkthrough of how large language models process text and why small models wander."
+date: 2025-09-17
+layout: single
+author_profile: true
+read_time: true
+comments: false
+share: true
+related: true
+categories: [food, pickle, condiment]
+tags: [transformers, attention, sampling, ablation, distilgpt2, gpt, mechanistic-interpretability, probability]
+toc: true
+toc_label: "Jump to Section"
+toc_sticky: true
+visible: true
+permalink: /raja-mircha/
+---
+
+
 # 🌶️ Raja Mircha Pickling & Fermentation Guide
 
 This guide shows three approaches to making raja mircha (bhut jolokia/ghost chili) pickles and hot sauces:
