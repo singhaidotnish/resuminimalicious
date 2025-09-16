@@ -1,7 +1,7 @@
 ---
 title: "Raja mircha fermented pickle: A Step-by-Step Guide"
 excerpt: "From tokens and embeddings to attention heads, probabilities, sampling, and ablations — a practical walkthrough of how large language models process text and why small models wander."
-date: 2025-09-17
+date: 2025-09-16
 layout: single
 author_profile: true
 read_time: true
