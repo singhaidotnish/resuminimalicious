@@ -26,6 +26,12 @@ permalink: /how-modern-llms-work/
 **Know:** tokenization (BPE), embedding matrices (`wte`), residual stream, layernorm.  
 **Lab:** run **05_zero_a_slice_of_token_embeddings.py** and see how fluency degrades. Then try **07_add_small_gaussian_noise_to_residual_stream.py** to feel how sensitive the residual path is.
 
+## Try It Yourself 🚀
+
+- [View on GitHub](https://github.com/your-username/how-modern-llms-work-demo/blob/main/demo.ipynb)  
+- [Open in Google Colab](https://colab.research.google.com/github/your-username/how-modern-llms-work-demo/blob/main/demo.ipynb)  
+- [Download ZIP](https://github.com/your-username/how-modern-llms-work-demo/archive/refs/heads/main.zip)  
+
 ---
 
 ## 1) Attention core (Q, K, V) and heads
