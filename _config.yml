@@ -3,7 +3,7 @@ description: "Creative Technophile | AI/VFX Learner | Resume + Blog"
 email: singhai.nish@gmail.com
 url: "https://nishith.is-a.dev"
 baseurl: ""
-
+timezone: Asia/Kolkata
 author:
   name: Nishith Singhai
   avatar: "/assets/images/avatar.jpg"
