@@ -28,9 +28,9 @@ permalink: /how-modern-llms-work/
 
 ## Try It Yourself 🚀
 
-- [View on GitHub](https://github.com/your-username/how-modern-llms-work-demo/blob/main/demo.ipynb)  
-- [Open in Google Colab](https://colab.research.google.com/github/your-username/how-modern-llms-work-demo/blob/main/demo.ipynb)  
-- [Download ZIP](https://github.com/your-username/how-modern-llms-work-demo/archive/refs/heads/main.zip)  
+- [View on GitHub](https://github.com/singhaidotnish/how-modern-llms-work-demo/blob/main/demo.ipynb)  
+- [Open in Google Colab](https://colab.research.google.com/github/singhaidotnish/how-modern-llms-work-demo/blob/main/demo.ipynb)  
+- [Download ZIP](https://github.com/singhaidotnish/how-modern-llms-work-demo/archive/refs/heads/main.zip)  
 
 ---
 
