@@ -4,8 +4,10 @@
 │   │   ├── custom.css
 │   │   └── main.scss
 │   ├── images
-│   │   ├── avatar.png
-│   │   └── avatar.png.old
+│   │   ├── avatar.jpg
+│   │   ├── graffiti-bg.jpg
+│   │   ├── graffiti-bg.jpg.old
+│   │   └── profile_pic.png
 │   ├── js
 │   │   ├── lunr
 │   │   │   ├── lunr-en.js
@@ -26,7 +28,10 @@
 │   │   └── vendor
 │   │       └── jquery
 │   └── projects
+│       ├── minimalgotronifylicious.png
 │       ├── neo-titanium-mp.png
+│       ├── newtabfirefoxylicious.jpg
+│       ├── solar-system.jpg
 │       └── varsity-audio-monorepo.png
 ├── CHANGELOG.md
 ├── CNAME
@@ -375,6 +380,11 @@
 │   └── screenshot.png
 ├── favicon.ico
 ├── Gemfile
+├── google20a01567d9adf344.html
+├── how-modern-llms-work
+│   ├── demo.ipynb
+│   ├── README.md
+│   └── requirements.txt
 ├── _includes
 │   ├── after-content.html
 │   ├── analytics.html
@@ -441,6 +451,7 @@
 │   ├── posts-tag.html
 │   ├── posts-taxonomy.html
 │   ├── schema.html
+│   ├── schema-person.html
 │   ├── scripts.html
 │   ├── search
 │   │   ├── algolia-search-scripts.html
@@ -476,7 +487,7 @@
 │   └── resume.md
 ├── _posts
 │   ├── 2024-01-10-my-first-post.md
-│   ├── 2025-07-29-vfx-automation-insights.md 
+│   ├── 2025-07-29-vfx-automation-insights.md
 │   ├── 2025-08-05-building-a-condition-engine-inspired-by-tradetron.md
 │   ├── 2025-08-05-building-a-houdini-tool-with-ai-assisted-workflows.md
 │   ├── 2025-08-05-building-the-build-your-dream-tool-concept-to-working-prototype.md
@@ -510,7 +521,17 @@
 │   ├── 2025-08-05-using-midjourney-to-design-story-characters.md
 │   ├── 2025-08-05-using-practical-tools-to-stay-focused-while-coding.md
 │   ├── 2025-08-05-varsity-audio-how-chatgpt-was-used-to-build-it.md
-│   └── 2025-08-05-varsity-audio-why-i-avoided-mongodb.md
+│   ├── 2025-08-05-varsity-audio-why-i-avoided-mongodb.md
+│   ├── 2025-08-20-how-to-use-google-seo-to-get-top-search.md
+│   ├── 2025-09-02-ai-concepts-language-model-probabilities.md
+│   ├── 2025-09-02-trading-concepts-option-chain-in-backend.md
+│   ├── 2025-09-02-trading-concepts-series-explained.md
+│   ├── 2025-09-04-philosophy-paradox-of-choice.md
+│   ├── 2025-09-05-philosophy-time-and-attention.md
+│   ├── 2025-09-11-small-models-sampling.md
+│   ├── 2025-09-15-how-modern-llms-work.md
+│   ├── 2025-09-16-how-to-make-acv-at-home.md
+│   └── 2025-09-16-raja-mircha.md
 ├── projects.html
 ├── Rakefile
 ├── README.md
@@ -560,4 +581,4 @@
 ├── tree-structure.txt
 └── what-next.md
 
-60 directories, 500 files
+61 directories, 520 files
