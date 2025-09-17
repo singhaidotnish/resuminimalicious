@@ -4,9 +4,24 @@ email: singhai.nish@gmail.com
 url: "https://nishith.is-a.dev"
 baseurl: ""
 timezone: Asia/Kolkata
+# Minimal Mistakes bits (if you use it)
 author:
-  name: Nishith Singhai
-  avatar: "/assets/images/avatar.jpg"
+  name: "Nishith Singhai"
+  avatar: /assets/images/avatar.jpg
+  bio: "AI & creative technologist."
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/nishith-singhai"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/nishithsinghai/"
+    - label: "Twitter"
+      icon: "fab fa-x-twitter"
+      url: "https://twitter.com/nishithsinghai"
+    - label: "YouTube"
+      icon: "fab fa-youtube"
+      url: "https://www.youtube.com/@nishithsinghai"
 
 # Use ONE of these:
 # If building via GitHub Pages with remote theme:
