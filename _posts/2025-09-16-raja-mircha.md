@@ -1,6 +1,6 @@
 ---
 title: "Raja mircha fermented pickle: A Step-by-Step Guide"
-excerpt: "From tokens and embeddings to attention heads, probabilities, sampling, and ablations — a practical walkthrough of how large language models process text and why small models wander."
+excerpt: "A detailed guide to making Raja Mircha Fermented Pickle, from preparation to fermentation, with tips on achieving the perfect balance of heat and flavor."
 date: 2025-09-16
 layout: single
 author_profile: true
@@ -9,7 +9,7 @@ comments: false
 share: true
 related: true
 categories: [food, pickle, condiment]
-tags: [transformers, attention, sampling, ablation, distilgpt2, gpt, mechanistic-interpretability, probability]
+tags: [raja-mircha, fermented-pickle, Indian-cuisine, Naga-chilli, food-preservation, spicy-food, fermentation, homemade-condiments]
 toc: true
 toc_label: "Jump to Section"
 toc_sticky: true

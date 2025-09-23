@@ -1,6 +1,6 @@
 ---
 title: "How to make ACV at home: A Step-by-Step Guide"
-excerpt: "From tokens and embeddings to attention heads, probabilities, sampling, and ablations — a practical walkthrough of how large language models process text and why small models wander."
+excerpt: "Learn how to make raw, unfiltered apple cider vinegar (ACV) at home using simple ingredients and natural fermentation. A complete step-by-step guide with tips for success."
 date: 2025-09-16
 layout: single
 author_profile: true
@@ -8,8 +8,8 @@ read_time: true
 comments: false
 share: true
 related: true
-categories: [ai, llms, interpretability]
-tags: [transformers, attention, sampling, ablation, distilgpt2, gpt, mechanistic-interpretability, probability]
+categories: [food, fermentation, diy]
+tags: [apple-cider-vinegar, acv, fermentation, homemade-vinegar, natural-fermentation, probiotics, gut-health, diy]
 toc: true
 toc_label: "Jump to Section"
 toc_sticky: true
