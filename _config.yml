@@ -15,16 +15,13 @@ author:
   links:
     - label: "GitHub"
       icon: "fab fa-github"
-      url: "https://github.com/nishith-singhai"
+      url: "https://github.com/singhaidotnish"
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
-      url: "https://www.linkedin.com/in/nishithsinghai/"
-    - label: "Twitter"
-      icon: "fab fa-x-twitter"
-      url: "https://twitter.com/nishithsinghai"
+      url: "https://in.linkedin.com/in/nishith-singhai-951420b"
     - label: "YouTube"
       icon: "fab fa-youtube"
-      url: "https://www.youtube.com/@nishithsinghai"
+      url: "https://www.youtube.com/c/NishithSinghai"
 
 # Use ONE of these:
 # If building via GitHub Pages with remote theme:
