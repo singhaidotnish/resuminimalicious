@@ -13,8 +13,7 @@ author_profile: false
 ✉️ <a href="mailto:nishith@example.com">singhai.nish@gmail.com</a>
 </p>
 
-**VFX Pipeline TD** crafting **scalable**, **AI-augmented** tools that streamline pipelines and free artists to focus on creativity.
-
+**VFX Pipeline TD** developing **scalable**, **AI-augmented** tools that are designed to streamline workflows and empower artists to focus on creativity.
 ---
 
 ## 🧠 Skills

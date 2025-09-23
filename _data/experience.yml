@@ -6,9 +6,9 @@
   bullets:
   - Self Paced Learning of Github Actions workflow
   - Self Paced Learning of AI
-  - Algo Trading Tools	(python, smartapi)
+  - Algo Trading Tools	(python, smartapi) - WIP
   - Web Site for a south mumbai realtor	(jekyll, ruby)
-  - Setup Shotgrid Publishing Tool for Maya	(python, shotgrid)
+  - Setup Shotgrid Style Publishing Tool for Natron (python, yaml) - WIP
   - Clean Up Tool for maya batch scene files run from command line (python, shell, bash)
 
 # Sr Pipeline TD
@@ -37,9 +37,9 @@
   position: Sr Pipeline TD
   duration: Oct, 2018  &mdash; Sep, 2020
   bullets:
-  - Add new features to existing tool plateqc (python, pyqt5, nuke, bash, tcl)
+  - Build new tool to publish plateqc (python, pyqt5, nuke, bash)
   - Add new features to existing tool taskstarter (bash, tcl)
-  - Add new features to existing tool presets (python, pyqt5)
+  - Build new tool to set presets for all tools from one UI (python, pyqt5)
   - Build new tool for auto comp on houdini (python, pyqt5, houdini)
 
 
@@ -48,7 +48,7 @@
   position: Sr Pipeline TD
   duration: Oct, 2017  &mdash; Aug, 2018
   bullets:
-  - Shotgrid Integration in existing pipeline from scratch (python, pyqt5, nuke, bash, tcl)
+  - Shotgrid Integration in existing pipeline from scratch (python, pyqt5, nuke, bash)
   - Shotgrid Publish integration into Nuke  (nuke, python, shotgrid)
   - 3dEqualizer publish tool (python, pyqt5, 3dequalizer)
 
