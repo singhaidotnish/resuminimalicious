@@ -1,0 +1,106 @@
+- name: "neo-titanium-mp"
+  description: "Modern monorepo scaffold designed for CI/CD pipelines and microservices. Includes automated testing, linting, and deployment configurations with best practices for scalable application development."
+  status: "active"
+  image: "/assets/projects/neo-titanium-mp.png"
+  tags:
+    - Monorepo
+    - CI/CD
+    - DevOps
+  links:
+    github: "https://github.com/singhaidotnish/neo-titanium-mp"
+    demo: ""
+    docs: "https://github.com/singhaidotnish/neo-titanium-mp#readme"
+
+- name: "aipyqtfylicious"
+  description: "AI-infused PyQt toolkit featuring pre-built components and sample applications for rapid desktop development. Integrates machine learning models with intuitive GUI frameworks for intelligent desktop applications."
+  status: "active"
+  image: "" # Will display "AI" emoji fallback
+  tags:
+    - Python
+    - PyQt
+    - AI
+    - Desktop
+  links:
+    github: "https://github.com/singhaidotnish/aipyqtfylicious"
+    demo: ""
+    docs: ""
+
+- name: "varsity-audio-monorepo"
+  description: "Automated pipeline for Varsity educational content: scrapes chapters, converts to audio using text-to-speech, and manages uploads. Features intelligent chapter segmentation and quality audio generation."
+  status: "completed"
+  image: "/assets/projects/varsity-audio-monorepo.png"
+  tags:
+    - Automation
+    - TTS
+    - Web Scraping
+    - Audio
+  links:
+    github: "https://github.com/singhaidotnish/varsity-audio-monorepo"
+    demo: "https://varsity-audio-monorepo-frontend.onrender.com"
+    docs: ""
+
+- name: "minimalgotronifylicious"
+  description: "Minimal, AI-ready monorepo template with comprehensive documentation and utility scripts. Optimized for machine learning workflows with pre-configured environments and deployment pipelines."
+  status: "active"
+  image: "/assets/projects/minimalgotronifylicious.png"
+  tags:
+    - Template
+    - AI/ML
+    - Documentation
+  links:
+    github: "https://github.com/singhaidotnish/minimalgotronifylicious"
+    demo: ""
+    docs: ""
+
+- name: "hyperfotopixelicious"
+  description: "Imaging and VFX experimentation suite featuring custom tools and automated pipelines for photo manipulation, visual effects, and creative image processing workflows."
+  status: "wip"
+  image: "" # Will display 📸 emoji fallback
+  tags:
+    - Image Processing
+    - VFX
+    - Tools
+  links:
+    github: "https://github.com/singhaidotnish/hyperfotopixelicious"
+    demo: ""
+    docs: ""
+
+- name: "newtabfirefoxylicious"
+  description: "Custom Firefox new tab page experiments featuring personalized dashboards, quick links, and productivity widgets. Lightweight extension that enhances browser experience with configurable layouts."
+  status: "completed"
+  image: "/assets/projects/newtabfirefoxylicious.jpg"
+  tags:
+    - Firefox
+    - Extension
+    - Web
+  links:
+    github: "https://github.com/singhaidotnish/newtabfirefoxylicious"
+    demo: "https://singhaidotnish.github.io/newtabfirefoxylicious/"
+    docs: ""
+
+- name: "dm-mindmap"
+  description: "Interactive 3D mind mapping tool for visual brainstorming and knowledge organization. Features spatial navigation, collaborative editing, and export capabilities for creative thinking."
+  status: "wip"
+  image: "/assets/projects/solar-system.jpg"
+  tags:
+    - 3D
+    - Visualization
+    - Productivity
+  links:
+    github: "https://github.com/singhaidotnish/dm-mindmap"
+    demo: ""
+    docs: ""
+
+- name: "TubeSidecarificity"
+  description: "YouTube companion toolset featuring local ffmpeg processing, metadata extraction, and MP3 conversion. Batch processing capabilities for efficient video-to-audio workflows with quality preservation."
+  status: "active"
+  image: "" # Will display ▶️ emoji fallback
+  tags:
+    - FFmpeg
+    - YouTube
+    - Audio
+    - CLI
+  links:
+    github: "https://github.com/singhaidotnish/TubeSidecarificity"
+    demo: ""
+    docs: ""
