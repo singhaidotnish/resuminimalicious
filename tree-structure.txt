@@ -10,23 +10,11 @@
 │   │   └── profile_pic.png
 │   ├── js
 │   │   ├── lunr
-│   │   │   ├── lunr-en.js
-│   │   │   ├── lunr-gr.js
-│   │   │   ├── lunr.js
-│   │   │   ├── lunr.min.js
-│   │   │   └── lunr-store.js
 │   │   ├── _main.js
 │   │   ├── main.min.js
 │   │   ├── main.min.js.map
 │   │   ├── plugins
-│   │   │   ├── gumshoe.js
-│   │   │   ├── jquery.ba-throttle-debounce.js
-│   │   │   ├── jquery.fitvids.js
-│   │   │   ├── jquery.greedy-navigation.js
-│   │   │   ├── jquery.magnific-popup.js
-│   │   │   └── smooth-scroll.js
 │   │   └── vendor
-│   │       └── jquery
 │   └── projects
 │       ├── minimalgotronifylicious.png
 │       ├── neo-titanium-mp.png
@@ -40,6 +28,7 @@
 │   ├── education.yml
 │   ├── experience.yml
 │   ├── navigation.yml
+│   ├── projects.yml
 │   ├── resume.yml
 │   ├── skills.yml
 │   └── ui-text.yml
@@ -47,195 +36,11 @@
 ├── docs
 │   ├── assets
 │   │   └── images
-│   │       ├── 350x250.png
-│   │       ├── 3953273590_704e3899d5_m.jpg
-│   │       ├── 500x300.png
-│   │       ├── air-skin-archive-large.png
-│   │       ├── air-skin-archive.png
-│   │       ├── air-skin-post-large.png
-│   │       ├── air-skin-post.png
-│   │       ├── android-chrome-144x144.png
-│   │       ├── android-chrome-192x192.png
-│   │       ├── android-chrome-36x36.png
-│   │       ├── android-chrome-48x48.png
-│   │       ├── android-chrome-72x72.png
-│   │       ├── android-chrome-96x96.png
-│   │       ├── apple-touch-icon-114x114.png
-│   │       ├── apple-touch-icon-120x120.png
-│   │       ├── apple-touch-icon-144x144.png
-│   │       ├── apple-touch-icon-152x152.png
-│   │       ├── apple-touch-icon-180x180.png
-│   │       ├── apple-touch-icon-57x57.png
-│   │       ├── apple-touch-icon-60x60.png
-│   │       ├── apple-touch-icon-72x72.png
-│   │       ├── apple-touch-icon-76x76.png
-│   │       ├── apple-touch-icon.png
-│   │       ├── apple-touch-icon-precomposed.png
-│   │       ├── aqua-skin-archive-large.png
-│   │       ├── aqua-skin-archive.png
-│   │       ├── aqua-skin-post-large.png
-│   │       ├── aqua-skin-post.png
-│   │       ├── bio-photo-2.jpg
-│   │       ├── bio-photo.jpg
-│   │       ├── browserconfig.xml
-│   │       ├── contrast-code-block.jpg
-│   │       ├── contrast-skin-archive-large.png
-│   │       ├── contrast-skin-archive.png
-│   │       ├── contrast-skin-post-large.png
-│   │       ├── contrast-skin-post.png
-│   │       ├── dark-code-block.jpg
-│   │       ├── dark-skin-archive-large.png
-│   │       ├── dark-skin-archive.png
-│   │       ├── dark-skin-post-large.png
-│   │       ├── dark-skin-post.png
-│   │       ├── default-code-block.jpg
-│   │       ├── dirt-code-block.jpg
-│   │       ├── dirt-skin-archive-large.png
-│   │       ├── dirt-skin-archive.png
-│   │       ├── dirt-skin-post-large.png
-│   │       ├── dirt-skin-post.png
-│   │       ├── dracula-code-block.jpg
-│   │       ├── facebook-share-example.jpg
-│   │       ├── favicon-16x16.png
-│   │       ├── favicon-32x32.png
-│   │       ├── favicon-96x96.png
-│   │       ├── favicon.ico
-│   │       ├── foo-bar-identity.jpg
-│   │       ├── foo-bar-identity-th.jpg
-│   │       ├── google-custom-search-engine-layout.png
-│   │       ├── image-alignment-1200x4002.jpg
-│   │       ├── image-alignment-150x150.jpg
-│   │       ├── image-alignment-300x200.jpg
-│   │       ├── image-alignment-580x300.jpg
-│   │       ├── manifest.json
-│   │       ├── markup-syntax-highlighting-teaser.jpg
-│   │       ├── masthead-search.gif
-│   │       ├── michael-rose.jpg
-│   │       ├── mint-skin-archive-large.png
-│   │       ├── mint-skin-archive.png
-│   │       ├── mint-skin-post-large.png
-│   │       ├── mint-skin-post.png
-│   │       ├── mm-archive-grid-view-example.jpg
-│   │       ├── mm-author-profile-reddit-color.png
-│   │       ├── mm-author-profile-reddit-gs.png
-│   │       ├── mm-author-sidebar-example.jpg
-│   │       ├── mm-breadcrumbs-example.jpg
-│   │       ├── mm-browser-mockups.png
-│   │       ├── mm-bundle-install.gif
-│   │       ├── mm-customizable-feature.png
-│   │       ├── mm-custom-sidebar-example.jpg
-│   │       ├── mm-custom-sidebar-nav.jpg
-│   │       ├── mm-free-feature.png
-│   │       ├── mm-gh-pages.gif
-│   │       ├── mm-github-copy-repo-url.jpg
-│   │       ├── mm-github-edit-config.gif
-│   │       ├── mm-header-overlay-black-filter.jpg
-│   │       ├── mm-header-overlay-custom-filter.jpg
-│   │       ├── mm-header-overlay-red-filter.jpg
-│   │       ├── mm-home-page-feature.jpg
-│   │       ├── mm-home-post-pagination-example.jpg
-│   │       ├── mm-layout-archive.png
-│   │       ├── mm-layout-archive-taxonomy.png
-│   │       ├── mm-layout-examples.png
-│   │       ├── mm-layout-single-header.png
-│   │       ├── mm-layout-single-meta.png
-│   │       ├── mm-layout-single.png
-│   │       ├── mm-layout-splash.png
-│   │       ├── mm-masthead-logo.png
-│   │       ├── mm-paragraph-indent-example.jpg
-│   │       ├── mm-portfolio-collection-example.jpg
-│   │       ├── mm-post-date-example.png
-│   │       ├── mm-priority-plus-masthead.gif
-│   │       ├── mm-read-time-example.jpg
-│   │       ├── mm-responsive-feature.png
-│   │       ├── mm-single-header-example.jpg
-│   │       ├── mm-single-header-overlay-example.jpg
-│   │       ├── mm-single-header-overlay-fill-example.jpg
-│   │       ├── mm-social-share-links-default.png
-│   │       ├── mm-social-share-links-reddit-color.png
-│   │       ├── mm-social-share-links-reddit-gs.png
-│   │       ├── mm-staticman-pr-webhook.jpg
-│   │       ├── mm-susy-grid-overlay.jpg
-│   │       ├── mm-teaser-images-example.jpg
-│   │       ├── mm-theme-fork-repo.png
-│   │       ├── mm-theme-post-600.jpg
-│   │       ├── mm-theme-post-750.jpg
-│   │       ├── mm-toc-helper-example.jpg
-│   │       ├── mm-twitter-card-summary-image.jpg
-│   │       ├── mm-twitter-card-summary-large.jpg
-│   │       ├── mm-ui-text-labels.jpg
-│   │       ├── mstile-144x144.png
-│   │       ├── mstile-150x150.png
-│   │       ├── mstile-310x150.png
-│   │       ├── mstile-310x310.png
-│   │       ├── mstile-70x70.png
-│   │       ├── neon-code-block.jpg
-│   │       ├── neon-skin-archive-large.png
-│   │       ├── neon-skin-archive.png
-│   │       ├── neon-skin-post-large.png
-│   │       ├── neon-skin-post.png
-│   │       ├── page-header-image.png
-│   │       ├── page-header-og-image.png
-│   │       ├── page-header-overlay-image.png
-│   │       ├── page-header-teaser.png
-│   │       ├── paragraph-indent.png
-│   │       ├── paragraph-no-indent.png
-│   │       ├── plum-code-block.jpg
-│   │       ├── plum-skin-archive-large.png
-│   │       ├── plum-skin-archive.png
-│   │       ├── plum-skin-post-large.png
-│   │       ├── plum-skin-post.png
-│   │       ├── safari-pinned-tab.svg
-│   │       ├── search-layout-example.png
-│   │       ├── site-logo.png
-│   │       ├── solarized-light-code-block.jpg
-│   │       ├── sunrise-code-block.jpg
-│   │       ├── sunrise-skin-archive-large.png
-│   │       ├── sunrise-skin-archive.png
-│   │       ├── sunrise-skin-post-large.png
-│   │       ├── sunrise-skin-post.png
-│   │       ├── unsplash-gallery-image-1.jpg
-│   │       ├── unsplash-gallery-image-1-th.jpg
-│   │       ├── unsplash-gallery-image-2.jpg
-│   │       ├── unsplash-gallery-image-2-th.jpg
-│   │       ├── unsplash-gallery-image-3.jpg
-│   │       ├── unsplash-gallery-image-3-th.jpg
-│   │       ├── unsplash-gallery-image-4.jpg
-│   │       ├── unsplash-gallery-image-4-th.jpg
-│   │       ├── unsplash-image-10.jpg
-│   │       ├── unsplash-image-11.jpg
-│   │       ├── unsplash-image-1.jpg
-│   │       ├── unsplash-image-2.jpg
-│   │       ├── unsplash-image-3.jpg
-│   │       ├── unsplash-image-4.jpg
-│   │       ├── unsplash-image-5.jpg
-│   │       ├── unsplash-image-6.jpg
-│   │       ├── unsplash-image-7.jpg
-│   │       ├── unsplash-image-8.jpg
-│   │       └── unsplash-image-9.jpg
 │   ├── _config.dev.yml
 │   ├── _config.yml
 │   ├── _data
 │   │   ├── authors.yml
 │   │   ├── comments
-│   │   │   ├── chocolate-chip-cookies
-│   │   │   ├── gemified-theme-beta
-│   │   │   ├── layout-comments
-│   │   │   ├── layout-header-image-horizontal
-│   │   │   ├── layout-header-image-text-readability
-│   │   │   ├── layout-header-overlay-image
-│   │   │   ├── layout-related-posts
-│   │   │   ├── layout-sidebar-custom
-│   │   │   ├── layout-sidebar-nav-list
-│   │   │   ├── layout-table-of-contents-post
-│   │   │   ├── markup-image-alignment
-│   │   │   ├── markup-more-images
-│   │   │   ├── markup-syntax-highlighting
-│   │   │   ├── post-future-date
-│   │   │   ├── post-gallery
-│   │   │   ├── post-modified
-│   │   │   ├── post-video-youtube
-│   │   │   └── welcome-to-jekyll
 │   │   ├── navigation.yml
 │   │   └── theme.yml
 │   ├── _docs
@@ -268,7 +73,6 @@
 │   │   ├── after-content.html
 │   │   ├── before-related.html
 │   │   └── comments-providers
-│   │       └── scripts.html
 │   ├── _pages
 │   │   ├── 404.md
 │   │   ├── about.md
@@ -385,6 +189,7 @@
 │   ├── demo.ipynb
 │   ├── README.md
 │   └── requirements.txt
+├── IMPLEMENTATION_GUIDE.md
 ├── _includes
 │   ├── after-content.html
 │   ├── analytics.html
@@ -421,7 +226,6 @@
 │   │   ├── head.html
 │   │   ├── icon-links.html
 │   │   ├── icons
-│   │   │   └── icon-blog.html
 │   │   ├── print-social-links.html
 │   │   └── skills.html
 │   ├── documents-collection.html
@@ -484,6 +288,7 @@
 │   └── tags.html
 ├── LICENSE
 ├── _pages
+│   ├── projects.md
 │   └── resume.md
 ├── _posts
 │   ├── 2024-01-10-my-first-post.md
@@ -533,7 +338,9 @@
 │   ├── 2025-09-16-how-to-make-acv-at-home.md
 │   └── 2025-09-16-raja-mircha.md
 ├── projects.html
+├── QUICK_REFERENCE.md
 ├── Rakefile
+├── README_CUSTOM.md
 ├── README.md
 ├── robots.txt
 ├── _sass
@@ -556,29 +363,18 @@
 │   │   ├── _search.scss
 │   │   ├── _sidebar.scss
 │   │   ├── skins
-│   │   │   ├── _air.scss
-│   │   │   ├── _aqua.scss
-│   │   │   ├── _contrast.scss
-│   │   │   ├── _dark.scss
-│   │   │   ├── _default.scss
-│   │   │   ├── _dirt.scss
-│   │   │   ├── _mint.scss
-│   │   │   ├── _neon.scss
-│   │   │   ├── _plum.scss
-│   │   │   └── _sunrise.scss
 │   │   ├── _syntax.scss
 │   │   ├── _tables.scss
 │   │   ├── _utilities.scss
 │   │   ├── _variables.scss
 │   │   └── vendor
-│   │       ├── breakpoint
-│   │       ├── magnific-popup
-│   │       └── susy
 │   └── minimal-mistakes.scss
 ├── screenshot-layouts.png
 ├── screenshot.png
+├── START_HERE.md
 ├── staticman.yml
 ├── tree-structure.txt
+├── VISUAL_DEPLOYMENT_GUIDE.md
 └── what-next.md
 
-61 directories, 520 files
+39 directories, 338 files
