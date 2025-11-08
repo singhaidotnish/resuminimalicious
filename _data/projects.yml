@@ -1,3 +1,16 @@
+- name: "build your dream home"
+  description: "A jekyll and node based web site with full features to add and reply to comments"
+  status: "active"
+  image: "/assets/projects/build-your-dream-home.png"
+  tags:
+    - Jekyll
+    - CI/CD
+    - Nodejs
+  links:
+    github: "https://github.com/singhaidotnish/neo-titanium-mp"
+    demo: ""
+    docs: "https://github.com/singhaidotnish/neo-titanium-mp#readme"
+
 - name: "neo-titanium-mp"
   description: "Modern monorepo scaffold designed for CI/CD pipelines and microservices. Includes automated testing, linting, and deployment configurations with best practices for scalable application development."
   status: "active"
