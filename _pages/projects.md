@@ -3,21 +3,47 @@ layout: single
 title: "Projects Gallery"
 permalink: /projects/
 classes: wide
+author_profile: false
+sidebar:
+  nav: ""
 ---
 
 <style>
+    /* Hide page title from theme */
+    .page__title {
+        display: none !important;
+    }
+    
+    /* Remove all page padding and margins */
+    .page__content {
+        margin: 0 !important;
+        padding: 0 !important;
+        max-width: 100% !important;
+    }
+    
+    .page__inner-wrap {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    
+    .page {
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
     .carousel-wrapper {
-        width: 100%;
+        width: 100vw;
         min-height: 100vh;
         background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
         padding: 4rem 1rem;
         overflow: hidden;
-        margin-left: -100vw;
-        margin-right: -100vw;
         position: relative;
+        margin: 0;
         left: 50%;
         right: 50%;
-        width: 100vw;
+        margin-left: -50vw;
+        margin-right: -50vw;
     }
 
     .carousel-container {
