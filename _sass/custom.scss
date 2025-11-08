@@ -11,13 +11,13 @@ h2 {
   color: #333;
 }
 
-/* Full-bleed graffiti background for the home layout */
+/* Full-bleed graffiti background for the home layout
 body.layout--home {
-  /* 80% whitewash overlay + image */
   background:
     linear-gradient(rgba(255,255,255,.8), rgba(255,255,255,.8)),
     url('/assets/images/graffiti-bg.jpg') center center / cover fixed no-repeat;
 }
+*/
 
 /* Let the background show through */
 .layout--home .page,
