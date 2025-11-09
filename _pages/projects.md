@@ -362,7 +362,7 @@ permalink: /projects/
     <div class="carousel-container">
         <!-- Header -->
         <div class="carousel-header">
-            <h1>Projects Gallery</h1>
+            <h1>+++ Projects Gallery</h1>
             <p>Explore my portfolio in 3D</p>
         </div>
 
