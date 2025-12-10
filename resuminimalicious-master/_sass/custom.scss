@@ -1,0 +1,39 @@
+/* Custom overrides */
+
+.page__sidebar {
+  font-size: 0.95rem;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Optional tweaks */
+h2 {
+  color: #333;
+}
+
+/* Full-bleed graffiti background for the home layout
+body.layout--home {
+  background:
+    linear-gradient(rgba(255,255,255,.8), rgba(255,255,255,.8)),
+    url('/assets/images/graffiti-bg.jpg') center center / cover fixed no-repeat;
+}
+*/
+
+/* Let the background show through */
+.layout--home .page,
+.layout--home .page__inner-wrap { background: transparent; }
+
+/* Optional: hide the default theme title (you have your own <h1>) */
+.home-graffiti .page__title { display: none; }
+
+/* Your white “painted” card */
+.home-graffiti .canvas-area {
+  position: relative;
+  z-index: 1;
+  max-width: 860px;
+  margin: 2.5rem auto 4rem;
+  background: #fff;
+  padding: 2rem 2.2rem;
+  border-radius: 14px;
+  box-shadow: 0 10px 28px rgba(0,0,0,0.18);
+}

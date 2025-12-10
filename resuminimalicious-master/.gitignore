@@ -1,0 +1,30 @@
+# Jekyll build output
+_site/
+.sass-cache/
+.jekyll-cache/
+
+# Ruby environment
+vendor/
+.bundle/
+Gemfile.lock
+
+# Local environment files
+.env
+.env.*
+
+# OS & IDE clutter
+.DS_Store
+Thumbs.db
+*.swp
+
+# VS Code
+.vscode/
+
+# Logs
+log/
+*.log
+
+# Optional: ignore node/npm if unused
+node_modules/
+package-lock.json
+yarn.lock

@@ -1,0 +1,133 @@
+title: "Nishith Singhai"
+description: "Creative Technophile | AI/VFX Learner | Resume + Blog"
+email: singhai.nish@gmail.com
+url: "https://nishith.is-a.dev"
+baseurl: ""
+timezone: Asia/Kolkata
+
+include:
+  - google20a01567g9adf344.html
+
+author:
+  name: "Nishith Singhai"
+  avatar: /assets/images/avatar.jpg
+  bio: "AI & creative technologist."
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/singhaidotnish"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://in.linkedin.com/in/nishith-singhai-951420b"
+    - label: "YouTube"
+      icon: "fab fa-youtube"
+      url: "https://www.youtube.com/c/NishithSinghai"
+
+# Use ONE of these:
+# If building via GitHub Pages with remote theme:
+remote_theme: "mmistakes/minimal-mistakes"
+# If building via gem locally instead, comment the line above and use:
+# theme: minimal-mistakes-jekyll
+
+minimal_mistakes_skin: default
+
+collections:
+  experience:
+    output: true
+  education:
+    output: true
+  pages:
+    output: true
+    permalink: /:path/
+
+# --- Giscus (comments provider) ---
+comments:
+  provider: "giscus"
+  giscus:
+    repo: "zarir-engineer/resuminimalicious"        # e.g. singhaidotnish/blog
+    repo_id: "R_kgDOPShSDQ"
+    category: "General"
+    category_id: "DIC_kwDOPShSDc4Ct8YI"
+    mapping: "pathname"
+    reactions_enabled: "1"
+    emit_metadata: "0"
+    theme: "light"
+
+# --- Defaults (one per type) ---
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: false
+      related: true
+      toc: true
+      toc_sticky: true
+      visible: false
+
+  - scope:
+      path: ""
+      type: pages     # this refers to your _pages collection
+    values:
+      layout: single
+      author_profile: true
+      comments: false
+      share: false
+      toc: true
+      toc_sticky: true
+      toc_label: "On this page"
+
+  - scope:
+      path: ""
+      type: docs
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      toc_sticky: true
+      sidebar:
+        nav: "docs"
+
+  - scope:
+      path: ""
+      type: recipes
+    values:
+      layout: single
+      author_profile: true
+      share: false
+      comments: true
+
+  - scope:
+      path: ""
+      type: pets
+    values:
+      layout: single
+      author_profile: true
+      share: false
+      comments: true
+
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: false
+      share: false
+      comments: false
+
+sass:
+  style: compressed
+
+plugins:
+  - jekyll-include-cache
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  # needed if using remote_theme:
+  - jekyll-remote-theme

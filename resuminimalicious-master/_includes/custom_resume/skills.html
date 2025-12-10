@@ -1,0 +1,25 @@
+<section id="skills">
+  <h2>Skills</h2>
+
+  {% for skill in site.data.skills %}
+    <div class="skill-category">
+      <h3>{{ skill.skill }}</h3>
+      <div class="skill-summary">
+        {{ skill.summary }}
+      </div>
+
+      {% if skill.sub_skills %}
+        <ul class="resume-item-list">
+          {% for sub in skill.sub_skills %}
+            <li>
+              {{ sub.name }}
+              {% if sub.jupyter_notebook %}
+                🔗 <a href="{{ sub.jupyter_notebook }}" target="_blank">View Notebook</a>
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    </div>
+  {% endfor %}
+</section>

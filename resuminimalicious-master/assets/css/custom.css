@@ -1,0 +1,11 @@
+.page__sidebar {
+  top: 100px;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.toc {
+  float: right;
+  max-width: 300px;
+  margin-left: 2rem;
+}

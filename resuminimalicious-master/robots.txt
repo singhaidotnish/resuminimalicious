@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://nishith.is-a.dev/sitemap.xml
