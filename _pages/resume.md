@@ -17,12 +17,12 @@ css: "/assets/css/resume.css"
 
 **I bridge VFX pipeline development with full-stack software engineering**, and I'm currently exploring how AI/ML can enhance creative workflows. With 20+ years in technical roles, I architect creative pipelines, build production tools, and deliver end-to-end solutions for animation and VFX studios.
 
-<div style="text-align: center; margin: 1.5rem 0;">
+<!-- <div style="text-align: center; margin: 1.5rem 0;">
   <span style="background:#667eea; color:white; padding:6px 14px; border-radius:20px; font-size:0.9rem; font-weight:600; margin:0 5px;">Primary: Pipeline TD</span>
   <span style="background:#f5576c; color:white; padding:6px 14px; border-radius:20px; font-size:0.9rem; font-weight:600; margin:0 5px;">Secondary: Full-Stack</span>
   <span style="background:#4facfe; color:white; padding:6px 14px; border-radius:20px; font-size:0.9rem; font-weight:600; margin:0 5px;">Exploring: AI/ML</span>
   <span style="background:#43e97b; color:#333; padding:6px 14px; border-radius:20px; font-size:0.9rem; font-weight:600; margin:0 5px; border:2px solid #38f9d7;">Technical Swiss Army Knife</span>
-</div>
+</div> -->
 
 ---
 
