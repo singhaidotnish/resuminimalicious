@@ -5,6 +5,7 @@ toc: true
 toc_sticky: true
 permalink: /resume/
 author_profile: false
+css: "/assets/css/resume.css"
 ---
 
 <p align="center">
