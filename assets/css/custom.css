@@ -9,3 +9,56 @@
   max-width: 300px;
   margin-left: 2rem;
 }
+
+
+// Resume styling to match portfolio
+.resume-badge {
+  display: inline-block;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin: 0 5px 10px 0;
+  
+  &.pipeline {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+  }
+  
+  &.fullstack {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    color: white;
+  }
+  
+  &.ai {
+    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+    color: white;
+  }
+  
+  &.swiss {
+    background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+    color: #333;
+    border: 2px solid #38f9d7;
+  }
+}
+
+// Domain section styling
+.resume-domain-section {
+  margin-bottom: 2.5rem;
+  border-left: 4px solid;
+  padding-left: 1rem;
+  
+  &.pipeline-section {
+    border-color: #667eea;
+  }
+  
+  &.fullstack-section {
+    border-color: #f5576c;
+  }
+  
+  &.ai-section {
+    border-color: #4facfe;
+  }
+}

@@ -1,9 +1,15 @@
-- degree: Bachelor of Science, Mathematics
-  school: Wilson College
-  location: India
-  year: 1989 &mdash; 1993
+- degree: "Bachelor of Science, Mathematics"
+  school: "Wilson College"
+  year: "1989 — 1993"
+  location: "India"
 
-- degree: Language Study ( German )
-  school: Max Mueller Bhavan
-  location: Mumbai
-  year: 1994
+- degree: "Language Study (German)"
+  school: "Max Mueller Bhavan"
+  year: "1994"
+  location: "Mumbai"
+
+- degree: "Continuous Learning & Professional Development"
+  school: "Self-Directed"
+  year: "Ongoing"
+  location: "Online"
+  notes: "Focus on AI/ML, modern web development, and pipeline architecture"
