@@ -1,24 +1,42 @@
-- name: Programming
-  skills:
-    - name: Python
-      level: Expert
-    - name: JavaScript
-      level: Advanced
-    - name: C++
-      level: Intermediate
+# New structure matching your portfolio
+pipeline:
+  - name: Python (Maya/Houdini/Nuke APIs)
+    level: Expert
+  - name: PySide/PyQt
+    level: Expert  
+  - name: Shell Scripting
+    level: Expert
+  - name: DCC Tools (Maya, Houdini, Nuke)
+    level: Advanced
+  - name: Rendering (Arnold, Deadline)
+    level: Advanced
+  - name: Production Tools (ShotGrid, custom pipelines)
+    level: Advanced
 
-- name: Tools & Platforms
-  skills:
-    - name: Blender
-      level: Intermediate
-    - name: FFmpeg
-      level: Expert
-    - name: Jekyll
-      level: Advanced
+fullstack:
+  - name: JavaScript/React/Vue
+    level: Advanced
+  - name: Node.js
+    level: Intermediate
+  - name: Python (Django, Flask, FastAPI)
+    level: Advanced
+  - name: HTML5/CSS3
+    level: Advanced
+  - name: Jekyll/GitHub Pages
+    level: Advanced
+  - name: DevOps (Docker, AWS, CI/CD)
+    level: Intermediate
+  - name: Databases (PostgreSQL, MongoDB)
+    level: Intermediate
 
-- name: AI & Automation
-  skills:
-    - name: OpenAI API
-      level: Intermediate
-    - name: Tasker
-      level: Expert
+ai:
+  - name: PyTorch/TensorFlow Basics
+    level: Exploring
+  - name: OpenCV/PIL
+    level: Learning
+  - name: Prompt Engineering
+    level: Learning
+  - name: OpenAI/Stable Diffusion APIs
+    level: Testing
+  - name: Jupyter/Colab
+    level: Familiar
