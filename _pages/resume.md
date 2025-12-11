@@ -75,7 +75,6 @@ author_profile: false
 {% for bullet in job.bullets %}
 - {{ bullet }}
 {% endfor %}
-
 {% endfor %}
 
 ---
