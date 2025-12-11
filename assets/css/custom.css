@@ -11,7 +11,6 @@
 }
 
 
-// Resume styling to match portfolio
 .resume-badge {
   display: inline-block;
   padding: 6px 14px;
@@ -44,7 +43,7 @@
   }
 }
 
-// Domain section styling
+
 .resume-domain-section {
   margin-bottom: 2.5rem;
   border-left: 4px solid;
