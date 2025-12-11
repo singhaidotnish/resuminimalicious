@@ -70,7 +70,7 @@ author_profile: false
 
 {% for job in site.data.experience %}
 ### {{ job.company }}
-*{{ job.role }}* | {{ job.duration }} | {{ job.location }}
+*{{ job.role }}* | *{{ job.duration }}* | *{{ job.location }}*
 
 {% for bullet in job.bullets %}
 - {{ bullet }}

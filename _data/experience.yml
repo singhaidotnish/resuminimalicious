@@ -1,8 +1,9 @@
 # Jobs
 # Freelance
 - company: Free-Lancer
-  position: Freelancer
+  role: Freelancer
   duration: Jan, 2024 - till date
+  location: Mumbai, India
   bullets:
   - Self Paced Learning of Github Actions workflow
   - Self Paced Learning of AI
@@ -12,18 +13,20 @@
   - Clean Up Tool for maya batch scene files run from command line (python, shell, bash)
 
 # Sr Pipeline TD
-- company: Rocket Science, Toronto, Canada ( online )
-  position: Sr Pipeline TD
+- company: Rocket Science
+  role: Sr Pipeline TD
   duration: May 2023 – Sep 2023
+  location: Toronto, Canada ( online )
   bullets:
   - Enhanced HDRI publishing tool (Python, PyQt5)
   - Upgraded Photoshop-Shotgrid pipeline integration
 
 
 # Sr Pipeline TD
-- company: BOTVFX, Chennai, India
-  position: Sr Pipeline TD
+- company: BOTVFX
+  role: Sr Pipeline TD
   duration: Oct, 2021 &mdash; Mar, 2023
+  location: Chennai, India
   bullets:
   - Upgrade publisher tool with features taken as input from VFX supervisor (python, pyqt5)
   - Share skills, information, experience and ideas with other TD's and artist's from other dept's. (python, pyqt5, shotgrid)
@@ -33,9 +36,10 @@
 
 
 # Sr Pipeline TD
-- company: BaseFX, KL, Malaysia
-  position: Sr Pipeline TD
+- company: BaseFX
+  role: Sr Pipeline TD
   duration: Oct, 2018  &mdash; Sep, 2020
+  location: KL, Malaysia
   bullets:
   - Build new tool to publish plateqc (python, pyqt5, nuke, bash)
   - Add new features to existing tool taskstarter (bash, tcl)
@@ -44,9 +48,10 @@
 
 
 # Sr Pipeline TD
-- company: Atomic Arts, Mumbai, India
-  position: Sr Pipeline TD
+- company: Atomic Arts
+  role: Sr Pipeline TD
   duration: Oct, 2017  &mdash; Aug, 2018
+  location: Mumbai, India
   bullets:
   - Shotgrid Integration in existing pipeline from scratch (python, pyqt5, nuke, bash)
   - Shotgrid Publish integration into Nuke  (nuke, python, shotgrid)
@@ -54,17 +59,19 @@
 
 
 # Sr Pipeline TD
-- company: Prime Focus, Mumbai, India
-  position: Sr Pipeline TD
+- company: Prime Focus
+  role: Sr Pipeline TD
   duration: Sep, 2014  &mdash; Aug, 2017
+  location: Mumbai, India
   bullets:
   - Troubleshoot Floor Issues (python, pyqt5, maya, nuke)
   - Tool to Publish files to System (python, pyqt5, maya, nuke)
 
 # Sr Pipeline TD
-- company: Barajoun, Dubai, UAE
-  position: Sr Pipeline TD
+- company: Barajoun
+  role: Sr Pipeline TD
   duration: Jan, 2014  &mdash; Jul, 2014
+  location: Dubai, UAE
   bullets:
   - Troubleshoot Floor Issues (python, pyqt5, maya, nuke)
   - Light Linking Tool to Publish files to System (python, pyqt5, maya, nuke)
@@ -72,36 +79,40 @@
 
 
 # Sr Pipeline TD
-- company: FutureWorks, Mumbai, India
-  position: Sr Pipeline TD
+- company: FutureWorks
+  role: Sr Pipeline TD
   duration: Jan, 2013  &mdash; Dec, 2013
+  location: Mumbai, India
   bullets:
   - Troubleshoot Floor Issues (python, pyqt5, maya, nuke)
 
 
 
 # Sr Pipeline TD
-- company: Eyeqube, Mumbai, India
-  position: Pipeline Lead
+- company: Eyeqube
+  role: Pipeline Lead
   duration: Jan, 2010  &mdash; Dec, 2012
+  location: Mumbai, India
   bullets:
   - Troubleshoot Floor Issues (python, pyqt5, maya, nuke)
   - Build inhouse tools which will be called our own pipeline
 
 
 # Sr Pipeline TD
-- company: PrimeFocus, Mumbai, India
-  position: Sr Pipeline TD
+- company: PrimeFocus
+  role: Sr Pipeline TD
   duration: Jul, 2008  &mdash; Dec, 2009
+  location: Mumbai, India
   bullets:
   - EqRunner - A tool for publishing assets (python, pyqt5, maya, nuke)
   - Troubleshoot Floor Issues (python, pyqt5, maya, nuke)
 
 
 # Sr Pipeline TD
-- company: Skyworks, Mumbai, India
-  position: Sr Pipeline TD
+- company: Skyworks
+  role: Sr Pipeline TD
   duration: Jan, 2007  &mdash; Jun, 2008
+  location: Mumbai, India
   bullets:
   - fx, ncloth, maya
   - Troubleshoot Floor Issues (python, mel, maya, nuke)
