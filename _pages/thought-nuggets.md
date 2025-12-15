@@ -14,13 +14,17 @@ Quick thoughts, half-formed ideas, and interesting connections that don't warran
 
 ---
 
-{% assign my_posts = site.posts | where_exp:"item", "item.path contains '_posts/'" %}
-{% for post in my_posts %}
-  {% include archive-single.html %}
-{% endfor %}
+{% assign site_posts = site.posts | where_exp:"post", "post.path contains '/_posts/' and post.path contains '/nishith.is-a.dev/' or post.path contains 'your-repo-name'" %}
 
-{% if my_posts.size == 0 %}
-  <p>No thought nuggets found.</p>
+{% if site_posts.size > 0 %}
+  {% for post in site_posts %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% else %}
+  <p>Showing all posts ({{ site.posts.size }} found):</p>
+  {% for post in site.posts %}
+    {% include archive-single.html %}
+  {% endfor %}
 {% endif %}
 
 ## 📥 Add a Nugget

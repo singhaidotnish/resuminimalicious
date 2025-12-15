@@ -5,8 +5,6 @@ url: "https://nishith.is-a.dev"
 baseurl: ""
 timezone: Asia/Kolkata
 
-include:
-  - google20a01567g9adf344.html
 
 author:
   name: "Nishith Singhai"
@@ -131,3 +129,41 @@ plugins:
   - jekyll-feed
   # needed if using remote_theme:
   - jekyll-remote-theme
+
+# --- Add these lines ---
+exclude:
+  - README.md
+  - "*.gemspec"
+  - "*.gem"
+  - .git
+  - .jekyll-cache
+  - .sass-cache
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .github/
+  
+# Explicitly exclude parent/sibling directories
+  - "../"
+  - "../**/*"
+  - "../../"
+  - "../../**/*"
+  - "*/_posts/*"  # Exclude posts not in direct _posts folder
+  - "**/_posts/*" # Exclude posts in nested or parent _posts
+  - ".gitignore"
+
+# Ensure we only include from current directory
+include:
+  - _posts
+  - _pages
+  - assets
+  - _config.yml
+  - "*.md"
+  - "*.html"
+  - google20a01567g9adf344.html
+# --- End of addition ---
