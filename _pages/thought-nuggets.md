@@ -14,17 +14,13 @@ Quick thoughts, half-formed ideas, and interesting connections that don't warran
 
 ---
 
-{% if site.tagsmap %}
-  {% for collection in site.tagsmap %}
-    <h2 id="{{ collection[0] | slugify }}" class="archive__subtitle">{{ collection[0] }}</h2>
-    {% for post in collection[1] %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.posts %}
-    {% include archive-single.html %}
-  {% endfor %}
+{% assign my_posts = site.posts | where_exp:"item", "item.path contains '_posts/'" %}
+{% for post in my_posts %}
+  {% include archive-single.html %}
+{% endfor %}
+
+{% if my_posts.size == 0 %}
+  <p>No thought nuggets found.</p>
 {% endif %}
 
 ## 📥 Add a Nugget
