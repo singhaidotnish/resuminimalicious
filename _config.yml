@@ -130,40 +130,52 @@ plugins:
   # needed if using remote_theme:
   - jekyll-remote-theme
 
-# --- Add these lines ---
+# --- Add this to your existing _config.yml ---
 exclude:
+  # Critical: Exclude the entire docs folder which has its own Jekyll site
+  - docs/
+  
+  # Also exclude these common files/folders
   - README.md
-  - "*.gemspec"
-  - "*.gem"
+  - README_CUSTOM.md
+  - DEPLOYMENT_GUIDE.md
+  - IMPLEMENTATION_GUIDE.md
+  - QUICK_REFERENCE.md
+  - START_HERE.md
+  - VISUAL_DEPLOYMENT_GUIDE.md
+  - what-next.md
+  - CHANGELOG.md
+  - check-deployment.sh
+  - deploy.sh
+  - structure.txt
+  - tree-structure.txt
+  - CNAME
+  - favicon.ico
+  - robots.txt
+  - screenshot.png
+  - screenshot-layouts.png
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
   - .git
   - .jekyll-cache
   - .sass-cache
-  - gemfiles/
-  - Gemfile
-  - Gemfile.lock
   - node_modules/
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-  - .github/
-  
-# Explicitly exclude parent/sibling directories
-  - "../"
-  - "../**/*"
-  - "../../"
-  - "../../**/*"
-  - "*/_posts/*"  # Exclude posts not in direct _posts folder
-  - "**/_posts/*" # Exclude posts in nested or parent _posts
-  - ".gitignore"
+  - vendor/
+  - how-modern-llms-work/
+  - vfx/
 
-# Ensure we only include from current directory
+# Update your include section to be explicit
 include:
   - _posts
   - _pages
   - assets
+  - _data
+  - _includes
+  - _layouts
+  - _sass
   - _config.yml
+  - index.html
   - "*.md"
   - "*.html"
   - google20a01567g9adf344.html
-# --- End of addition ---
