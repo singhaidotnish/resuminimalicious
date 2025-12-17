@@ -1,6 +1,6 @@
 ---
 title: "Thought Nuggets"
-layout: single
+layout: archive
 toc: true
 toc_sticky: true
 permalink: /thought-nuggets/
