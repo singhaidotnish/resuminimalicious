@@ -1,0 +1,346 @@
+.
+├── assets
+│   ├── css
+│   │   ├── custom.css
+│   │   ├── main.scss
+│   │   └── resume.scss
+│   ├── images
+│   │   ├── avatar.jpg
+│   │   ├── graffiti-bg.jpg
+│   │   ├── graffiti-bg.jpg.old
+│   │   ├── paper-craft-whale.jpg
+│   │   └── profile_pic.png
+│   ├── js
+│   │   ├── lunr
+│   │   ├── _main.js
+│   │   ├── main.min.js
+│   │   ├── main.min.js.map
+│   │   ├── plugins
+│   │   └── vendor
+│   └── projects
+│       ├── build-your-dream-home.png
+│       ├── minimalgotronifylicious.png
+│       ├── neo-titanium-mp.png
+│       ├── newtabfirefoxylicious.jpg
+│       ├── solar-system.jpg
+│       └── varsity-audio-monorepo.png
+├── CHANGELOG.md
+├── check-deployment.sh
+├── CNAME
+├── _config.yml
+├── _data
+│   ├── education.yml
+│   ├── experience.yml
+│   ├── navigation.yml
+│   ├── projects.yml
+│   ├── resume.yml
+│   ├── skills.yml
+│   └── ui-text.yml
+├── DEPLOYMENT_GUIDE.md
+├── deploy.sh
+├── docs
+│   ├── assets
+│   │   └── images
+│   ├── _config.dev.yml
+│   ├── _config.yml
+│   ├── _data
+│   │   ├── authors.yml
+│   │   ├── comments
+│   │   ├── navigation.yml
+│   │   └── theme.yml
+│   ├── _docs
+│   │   ├── 01-quick-start-guide.md
+│   │   ├── 02-structure.md
+│   │   ├── 03-installation.md
+│   │   ├── 04-upgrading.md
+│   │   ├── 05-configuration.md
+│   │   ├── 06-overriding-theme-defaults.md
+│   │   ├── 07-navigation.md
+│   │   ├── 08-ui-text.md
+│   │   ├── 09-authors.md
+│   │   ├── 10-layouts.md
+│   │   ├── 11-posts.md
+│   │   ├── 12-pages.md
+│   │   ├── 13-collections.md
+│   │   ├── 14-helpers.md
+│   │   ├── 15-utility-classes.md
+│   │   ├── 16-stylesheets.md
+│   │   ├── 17-javascript.md
+│   │   ├── 18-history.md
+│   │   ├── 19-contributing.md
+│   │   ├── 20-docs-2-2.md
+│   │   ├── 21-license.md
+│   │   └── 22-faq.md
+│   ├── _drafts
+│   │   └── post-draft.md
+│   ├── Gemfile
+│   ├── _includes
+│   │   ├── after-content.html
+│   │   ├── before-related.html
+│   │   └── comments-providers
+│   ├── _pages
+│   │   ├── 404.md
+│   │   ├── about.md
+│   │   ├── archive-layout-with-content.md
+│   │   ├── category-archive.md
+│   │   ├── collection-archive.html
+│   │   ├── edge-case.md
+│   │   ├── home.md
+│   │   ├── lorem-ipsum.md
+│   │   ├── markup.md
+│   │   ├── page-a.md
+│   │   ├── page-archive.html
+│   │   ├── page-b.md
+│   │   ├── pets.md
+│   │   ├── portfolio-archive.md
+│   │   ├── post-archive-feature-rows.html
+│   │   ├── recipes-archive.md
+│   │   ├── sample-page.md
+│   │   ├── sitemap.md
+│   │   ├── splash-page.md
+│   │   ├── tag-archive.md
+│   │   ├── terms.md
+│   │   └── year-archive.md
+│   ├── _pets
+│   │   ├── lhasa-apso.md
+│   │   └── tabby.md
+│   ├── _portfolio
+│   │   ├── baz-boom-identity.md
+│   │   ├── fizz-bang-identity.md
+│   │   ├── foo-bar-website.md
+│   │   └── ginger-gulp-identity.md
+│   ├── _posts
+│   │   ├── 2009-05-15-edge-case-nested-and-mixed-lists.md
+│   │   ├── 2009-06-01-edge-case-many-tags.md
+│   │   ├── 2009-07-02-edge-case-many-categories.md
+│   │   ├── 2009-08-06-edge-case-no-body-content.md
+│   │   ├── 2009-09-05-edge-case-no-yaml-title.md
+│   │   ├── 2009-10-05-edge-case-multiline-excerpt.md
+│   │   ├── 2009-10-05-edge-case-title-should-not-overflow-the-content-area.md
+│   │   ├── 2009-10-05-edge-case-very-long-title.md
+│   │   ├── 2009-10-06-edge-case-broken-highlighting.md
+│   │   ├── 2010-01-07-post-modified.md
+│   │   ├── 2010-01-07-post-standard.md
+│   │   ├── 2010-01-08-post-chat.md
+│   │   ├── 2010-02-05-post-notice.md
+│   │   ├── 2010-02-05-post-quote.md
+│   │   ├── 2010-03-07-post-link.md
+│   │   ├── 2010-06-02-post-video-youtube.md
+│   │   ├── 2010-08-05-post-header-image-og-override.md
+│   │   ├── 2010-08-05-post-header-overlay-image-og-override.md
+│   │   ├── 2010-08-05-post-image-linked.md
+│   │   ├── 2010-08-05-post-image-standard.md
+│   │   ├── 2010-08-05-post-teaser-image-og-override.md
+│   │   ├── 2010-08-06-post-image-linked-caption.md
+│   │   ├── 2010-08-07-post-image-caption.md
+│   │   ├── 2010-09-09-post-gallery.md
+│   │   ├── 2010-09-10-post-twitter-embeds.md
+│   │   ├── 2010-10-25-post-future-date.md
+│   │   ├── 2012-01-02-layout-comments-disabled.md
+│   │   ├── 2012-01-02-layout-comments.md
+│   │   ├── 2012-01-02-layout-post-date-disabled.md
+│   │   ├── 2012-01-02-layout-post-date.md
+│   │   ├── 2012-01-02-layout-read-time-disabled.md
+│   │   ├── 2012-01-02-layout-read-time.md
+│   │   ├── 2012-01-02-layout-related-posts-disabled.md
+│   │   ├── 2012-01-02-layout-related-posts.md
+│   │   ├── 2012-01-02-layout-sharing-disabled.md
+│   │   ├── 2012-01-02-layout-sharing.md
+│   │   ├── 2012-01-03-layout-read-time-comments-sharing-related-posts-disabled.md
+│   │   ├── 2012-01-03-layout-table-of-contents-include-post.md
+│   │   ├── 2012-01-03-layout-table-of-contents-indent-post.md
+│   │   ├── 2012-01-03-layout-table-of-contents-post.md
+│   │   ├── 2012-01-03-layout-table-of-contents-sticky.md
+│   │   ├── 2012-03-14-layout-code-excerpt-generated.md
+│   │   ├── 2012-03-14-layout-excerpt-defined.md
+│   │   ├── 2012-03-14-layout-excerpt-generated.md
+│   │   ├── 2012-03-15-layout-author-override.md
+│   │   ├── 2012-03-15-layout-author-sidebar-disabled.md
+│   │   ├── 2012-03-15-layout-header-image-external.md
+│   │   ├── 2012-03-15-layout-header-image-horizontal.md
+│   │   ├── 2012-03-15-layout-header-image-text-readability.md
+│   │   ├── 2012-03-15-layout-header-image-vertical.md
+│   │   ├── 2012-03-15-layout-header-overlay-color.md
+│   │   ├── 2012-03-15-layout-header-overlay-image.md
+│   │   ├── 2012-03-15-layout-header-overlay-image-tagline.md
+│   │   ├── 2012-03-15-layout-more-tag.md
+│   │   ├── 2012-03-15-layout-sidebar-custom.md
+│   │   ├── 2012-03-15-layout-sidebar-nav-list.md
+│   │   ├── 2012-05-22-markup-text-readability.md
+│   │   ├── 2012-05-22-markup-text-readability-wide-page.md
+│   │   ├── 2013-01-05-markup-title-with-markup.md
+│   │   ├── 2013-01-05-markup-title-with-special-characters.md
+│   │   ├── 2013-01-09-markup-text-alignment.md
+│   │   ├── 2013-01-10-markup-image-alignment.md
+│   │   ├── 2013-01-11-markup-html-tags-and-formatting.md
+│   │   ├── 2013-05-22-markup-more-images.md
+│   │   ├── 2013-08-16-markup-syntax-highlighting.md
+│   │   ├── 2016-02-24-welcome-to-jekyll.md
+│   │   ├── 2016-09-21-gemified-theme-alpha.md
+│   │   ├── 2016-10-06-gemified-theme-beta.md
+│   │   ├── 2017-01-23-layout-header-video.md
+│   │   └── 2017-11-28-post-exclude-search.md
+│   ├── Rakefile
+│   ├── _recipes
+│   │   ├── chocolate-chip-cookies.md
+│   │   ├── oatmeal-cookies.md
+│   │   └── peanut-butter-cookies.md
+│   ├── screenshot-layouts.png
+│   └── screenshot.png
+├── favicon.ico
+├── Gemfile
+├── google20a01567d9adf344.html
+├── how-modern-llms-work
+│   ├── demo.ipynb
+│   ├── README.md
+│   └── requirements.txt
+├── IMPLEMENTATION_GUIDE.md
+├── _includes
+│   ├── after-content.html
+│   ├── analytics.html
+│   ├── analytics-providers
+│   │   ├── custom.html
+│   │   ├── google-gtag.html
+│   │   ├── google.html
+│   │   └── google-universal.html
+│   ├── archive-single.html
+│   ├── author-profile-custom-links.html
+│   ├── author-profile.html
+│   ├── before-related.html
+│   ├── breadcrumbs.html
+│   ├── category-list.html
+│   ├── comment.html
+│   ├── comments.html
+│   ├── comments-providers
+│   │   ├── custom.html
+│   │   ├── custom_scripts.html
+│   │   ├── discourse.html
+│   │   ├── disqus.html
+│   │   ├── facebook.html
+│   │   ├── giscus.html
+│   │   ├── scripts.html
+│   │   ├── staticman.html
+│   │   ├── staticman_v2.html
+│   │   └── utterances.html
+│   ├── copyright.html
+│   ├── copyright.js
+│   ├── custom_resume
+│   │   ├── contact.html
+│   │   ├── contact-modal.html
+│   │   ├── foot.html
+│   │   ├── head.html
+│   │   ├── icon-links.html
+│   │   ├── icons
+│   │   ├── print-social-links.html
+│   │   └── skills.html
+│   ├── documents-collection.html
+│   ├── feature_row
+│   ├── figure
+│   ├── footer
+│   │   └── custom.html
+│   ├── footer.html
+│   ├── gallery
+│   ├── group-by-array
+│   ├── head
+│   │   └── custom.html
+│   ├── head.html
+│   ├── masthead.html
+│   ├── nav_list
+│   ├── page__date.html
+│   ├── page__hero.html
+│   ├── page__hero_video.html
+│   ├── page__meta.html
+│   ├── page__related.html
+│   ├── page__taxonomy.html
+│   ├── paginator.html
+│   ├── paginator-v1.html
+│   ├── paginator-v2.html
+│   ├── post_pagination.html
+│   ├── posts-category.html
+│   ├── posts-tag.html
+│   ├── posts-taxonomy.html
+│   ├── schema.html
+│   ├── schema-person.html
+│   ├── scripts.html
+│   ├── search
+│   │   ├── algolia-search-scripts.html
+│   │   ├── google-search-scripts.html
+│   │   ├── lunr-search-scripts.html
+│   │   └── search_form.html
+│   ├── seo.html
+│   ├── sidebar.html
+│   ├── skip-links.html
+│   ├── social-share.html
+│   ├── tag-list.html
+│   ├── toc
+│   ├── toc.html
+│   └── video
+├── index.html
+├── _layouts
+│   ├── archive.html
+│   ├── archive-taxonomy.html
+│   ├── categories.html
+│   ├── category.html
+│   ├── collection.html
+│   ├── compress.html
+│   ├── default.html
+│   ├── home.html
+│   ├── posts.html
+│   ├── search.html
+│   ├── single.html
+│   ├── splash.html
+│   ├── tag.html
+│   └── tags.html
+├── LICENSE
+├── _pages
+│   ├── projects.md
+│   ├── resume.md
+│   └── thought-nuggets.md
+├── _posts
+│   ├── 2025-12-15-build-muscle-memory-for-trading-options.md
+│   ├── 2025-12-15-options-greek-adhd.md
+│   ├── 2025-12-15-paper-craft-whale.md
+│   └── 2025-12-15-pen-drawing-for-focus.md
+├── QUICK_REFERENCE.md
+├── Rakefile
+├── README_CUSTOM.md
+├── README.md
+├── robots.txt
+├── _sass
+│   ├── custom.scss
+│   ├── minimal-mistakes
+│   │   ├── _animations.scss
+│   │   ├── _archive.scss
+│   │   ├── _base.scss
+│   │   ├── _buttons.scss
+│   │   ├── _copyright.scss
+│   │   ├── _footer.scss
+│   │   ├── _forms.scss
+│   │   ├── _masthead.scss
+│   │   ├── _mixins.scss
+│   │   ├── _navigation.scss
+│   │   ├── _notices.scss
+│   │   ├── _page.scss
+│   │   ├── _print.scss
+│   │   ├── _reset.scss
+│   │   ├── _search.scss
+│   │   ├── _sidebar.scss
+│   │   ├── skins
+│   │   ├── _syntax.scss
+│   │   ├── _tables.scss
+│   │   ├── _utilities.scss
+│   │   ├── _variables.scss
+│   │   └── vendor
+│   └── minimal-mistakes.scss
+├── screenshot-layouts.png
+├── screenshot.png
+├── START_HERE.md
+├── staticman.yml
+├── structure.txt
+├── tree-structure.txt
+├── vfx
+│   └── index.html
+├── VISUAL_DEPLOYMENT_GUIDE.md
+└── what-next.md
+
+41 directories, 303 files
