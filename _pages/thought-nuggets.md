@@ -14,7 +14,7 @@ Quick thoughts, half-formed ideas, and interesting connections that don't warran
 
 ---
 
-{% assign site_posts = site.posts | where_exp:"post", "post.path contains '/_posts/' and post.path contains '/nishith.is-a.dev/' or post.path contains 'your-repo-name'" %}
+{% assign site_posts = site.posts | where_exp:"post", "post.path contains '/_posts/' and post.path contains '/nishith.is-a.dev/' or post.path contains 'resuminimalicious'" %}
 
 {% if site_posts.size > 0 %}
   {% for post in site_posts %}
