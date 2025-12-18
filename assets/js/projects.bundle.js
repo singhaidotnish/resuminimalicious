@@ -1,5 +1,5 @@
 const projects = [
-    {name: "neo-titanium-mp", image: "/assets/projects/neo-titanium-mp.png", description: "Monorepo scaffold for modern pipelines / MP utilities.", url: "https://zarir-engineer.github.io/neo-titanium-global-enery/", color: "#4A90E2"},
+    {name: "neo-titanium-mp", image: "/assets/projects/neo-titanium-mp.jpg", description: "Monorepo scaffold for modern pipelines / MP utilities.", url: "https://zarir-engineer.github.io/neo-titanium-global-enery/", color: "#4A90E2"},
     {name: "aipyqtfylicious", image: "/assets/projects/aipyqtfylicious.png", description: "AI‑infused PyQt toolkit and sample apps.", url: "#", color: "#E24A4A"},
     {name: "varsity-audio-monorepo", image: "/assets/projects/varsity-audio-monorepo.png", description: "Varsity chapters → scrape, TTS, upload pipeline.", url: "https://varsity-audio-monorepo-frontend.onrender.com", color: "#50C878"},
     {name: "minimalgotronifylicious", image: "/assets/projects/minimalgotronifylicious.png", description: "Minimal, AI‑ready monorepo with docs & scripts.", url: "#", color: "#9B59B6"},
