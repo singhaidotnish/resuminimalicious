@@ -1,5 +1,5 @@
 ---
-title: "The Line as an Anchor: How Pen Drawing Calms My ADHD Brain"
+title: "The Line as an Anchor: How Pen Drawing Calms A ADHD Brain"
 excerpt: "My non-digital focus ritual. Using repetitive pen strokes on paper to create a kinetic anchor for my restless mind."
 date: 2025-12-15 # Add today's date
 layout: single
